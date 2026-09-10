@@ -1208,22 +1208,22 @@
         </div>
 
         <div class="card">
-          <h3>ðŸ“œ Storico & Convergenze <span style="font-size:11px;color:#8a7a5c;">L2</span></h3>
+          <h3> Storico & Convergenze <span style="font-size:11px;color:#8a7a5c;">L2</span></h3>
           <div class="conv-archive-box">
-            <div class="title">ðŸ“¥ Carica ruote dall'archivio</div>
+            <div class="title"> Carica ruote dall'archivio</div>
             <div class="btn-row">
               <select id="convArchivioRuota" style="flex:1;"></select>
               <input type="number" id="convArchivioN" value="10" min="2" max="100" style="width:70px;">
             </div>
-            <button class="step" id="btnCaricaRuoteConv" style="margin-top:6px;width:100%;">ðŸ“¥ Carica estrazioni nelle Convergenze</button>
+            <button class="step" id="btnCaricaRuoteConv" style="margin-top:6px;width:100%;"> Carica estrazioni nelle Convergenze</button>
           </div>
           <textarea id="historyInput" rows="3" placeholder="Oppure inserisci a mano, una estrazione per riga:
 Bari 7 23 45 68 81
 Napoli 12 34 56 72 90"></textarea>
           <div class="btn-row" style="margin-top:6px;">
-            <button class="step" id="histLoad">ðŸ“¥ Carica</button>
+            <button class="step" id="histLoad">Carica</button>
             <button class="step" id="histDemo">Demo</button>
-            <button class="step" id="histClear">ðŸ§¹</button>
+            <button class="step" id="histClear">¹</button>
           </div>
           <div class="hist-list" id="histList"></div>
           <div class="btn-row" style="margin-top:6px;">
@@ -1245,7 +1245,7 @@ Napoli 12 34 56 72 90"></textarea>
         </div>
 
         <div class="card">
-          <h3>ðŸ“ Distanze e Figure</h3>
+          <h3> Distanze e Figure</h3>
           <div class="distance-list" id="distanceList">
             <div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Evidenzia almeno 2 numeri</div>
           </div>
@@ -1253,15 +1253,15 @@ Napoli 12 34 56 72 90"></textarea>
         </div>
 
         <div class="card">
-          <h3>ðŸŽ¯ Cerca Allineamenti <span style="font-size:11px;color:#8a7a5c;">potenziato</span></h3>
+          <h3> Cerca Allineamenti <span style="font-size:11px;color:#8a7a5c;">potenziato</span></h3>
           <div class="btn-row" style="margin-bottom:6px;">
             <select id="alignMode" style="flex:1;">
-              <option value="entrambi">ðŸŸ¡ Oro + ðŸŸ¢ Verde</option>
-              <option value="oro">ðŸŸ¡ Solo numeri evidenziati</option>
+              <option value="entrambi"> Oro +  Verde</option>
+              <option value="oro"> Solo numeri evidenziati</option>
               <option value="verde"> Solo estrazione caricata</option>
             </select>
           </div>
-          <button class="step primary" id="findAlignmentBtn" style="width:100%;">ðŸ” Trova migliori configurazioni</button>
+          <button class="step primary" id="findAlignmentBtn" style="width:100%;"> Trova migliori configurazioni</button>
           <div class="alignment-result" id="alignmentResult">
             <span style="color:#8a7a5c;font-size:12px;">Evidenzia numeri o carica una estrazione, poi cerca</span>
           </div>
@@ -1270,7 +1270,7 @@ Napoli 12 34 56 72 90"></textarea>
         </div>
 
         <div class="card">
-          <h3>ðŸ’¾ Configurazioni</h3>
+          <h3>Configurazioni</h3>
           <div class="config-input-row">
             <input type="text" id="configNameInput" placeholder="Nome configurazione">
             <button id="saveConfigBtn">Salva</button>
@@ -1297,7 +1297,7 @@ Napoli 12 34 56 72 90"></textarea>
 
   <div class="guide-modal" id="guideModal">
     <div class="guide-box">
-      <button class="guide-close" id="guideClose">âœ• Chiudi</button>
+      <button class="guide-close" id="guideClose"> Chiudi</button>
       <h2>Guida alla Suite Completa v2.9</h2>
       <h4>Rc / Rx corretti (NOVITÃ€ v2.9)</h4>
       <p><b>Rc</b> = ritardo corrente della combinazione (concorsi dall'ultimo ambo realizzato al suo interno). <b>Rx</b> = <b>massimo ritardo storico</b> mai registrato dalla stessa combinazione sull'archivio della ruota fino alla data scelta (il piÃ¹ lungo intervallo passato senza ambi). Il filtro <b>Rc â‰¥ Rx</b> segnala combinazioni "mai state cosÃ¬ ritardate". Per i gruppi di 3 terzine: Rc = somma dei ritardi correnti, Rx = somma delle attese empiriche.</p>
