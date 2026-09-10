@@ -1107,16 +1107,16 @@
             <label style="font-size:11px;color:#c9b98f;display:block;margin-bottom:3px;">Usa archivio sul Cerchio</label>
             <div class="btn-row"><select id="archivioRuotaSelect" style="flex:1;"></select></div>
             <div class="btn-row" style="margin-top:6px;">
-              <button class="step" id="btnUseLast1" disabled>ðŸŽ¯ Ultima estrazione</button>
-              <button class="step" id="btnUseLast3" disabled>ðŸŽ¯ Ultime 3</button>
+              <button class="step" id="btnUseLast1" disabled> Ultima estrazione</button>
+              <button class="step" id="btnUseLast3" disabled> Ultime 3</button>
             </div>
           </div>
         </div>
 
         <div class="card esiti-card">
           <div class="esiti-header">
-            <h3 style="margin:0;">ðŸŽ¯ Numeri Promettenti</h3>
-            <button class="step primary esiti-refresh" id="esitiRefresh">â†» Aggiorna</button>
+            <h3 style="margin:0;"> Numeri Promettenti</h3>
+            <button class="step primary esiti-refresh" id="esitiRefresh"> Aggiorna</button>
           </div>
           <div class="esiti-subtitle">
             Aggrega Motore, Convergenze, Backtest, Manna e Piramide con <b>regola del Fuori 90</b> applicata a tutti i calcoli.
@@ -1124,14 +1124,14 @@
           </div>
           <div id="esitiContent">
             <div class="esiti-vuoto">
-              Esegui almeno un'analisi (âš¡ Motore, ðŸ”€ Convergenze, ðŸ•°ï¸ Backtest, ðŸŽ² Manna o ðŸ”º Piramide)<br>
-              poi premi <b>â†» Aggiorna</b> per vedere i numeri promettenti.
+              Esegui almeno un'analisi ( Motore, Convergenze,  Backtest,  Manna o  Piramide)<br>
+              poi premi <b> Aggiorna</b> per vedere i numeri promettenti.
             </div>
           </div>
         </div>
 
         <div class="card">
-          <h3>ðŸŽ² Metodo delle 3 Estrazioni <span style="font-size:11px;color:#8a7a5c;">Manna</span></h3>
+          <h3>Metodo delle 3 Estrazioni <span style="font-size:11px;color:#8a7a5c;">Manna</span></h3>
           <div class="btn-row">
             <select id="mannaRuota" style="flex:1;"></select>
             <button class="step primary" id="mannaRun" style="flex:0 0 auto;padding:8px 14px;">Calcola</button>
@@ -1140,17 +1140,17 @@
         </div>
 
         <div class="card">
-          <h3>ðŸ”º Piramide Ciclotimica</h3>
+          <h3> Piramide Ciclotimica</h3>
           <div class="esiti-subtitle">Costruisce la piramide dalle differenze successive dei numeri evidenziati (VERDI o ORO).</div>
           <div class="btn-row">
-            <button class="step primary" id="piramideRun">ðŸ”º Genera Piramide</button>
-            <button class="step" id="piramideClear">ðŸ§¹</button>
+            <button class="step primary" id="piramideRun"> Genera Piramide</button>
+            <button class="step" id="piramideClear"></button>
           </div>
           <div id="piramideResults"></div>
         </div>
 
         <div class="card">
-          <h3>ðŸ•µï¸ Spie per Ruota</h3>
+          <h3>¸ Spie per Ruota</h3>
           <div class="esiti-subtitle">Analizza i numeri evidenziati e mostra quali numeri "annunciano" storicamente nelle 5 estrazioni successive.</div>
           <div class="btn-row">
             <select id="spieRuota" style="flex:1;"></select>
@@ -1160,8 +1160,8 @@
         </div>
 
         <div class="card">
-          <h3>â° Figure Mancanti (Ritardo Figure)</h3>
-          <div class="esiti-subtitle">Mostra quali figure geometriche non escono da piÃ¹ tempo sulla ruota scelta.</div>
+          <h3> Figure Mancanti (Ritardo Figure)</h3>
+          <div class="esiti-subtitle">Mostra quali figure geometriche non escono da piu tempo sulla ruota scelta.</div>
           <div class="btn-row">
             <select id="figDelayRuota" style="flex:1;"></select>
             <button class="step" id="figDelayRun" style="flex:0 0 auto;padding:8px 14px;">Analizza</button>
@@ -1170,7 +1170,7 @@
         </div>
 
         <div class="card">
-          <h3>ðŸŽ¯ Cadenze & Decine</h3>
+          <h3>Cadenze & Decine</h3>
           <div class="esiti-subtitle">Analizza la distribuzione dei numeri evidenziati per cadenza (cifra finale) e decina.</div>
           <div id="cadenzeResults">
             <div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Evidenzia almeno 2 numeri per vedere l'analisi</div>
@@ -1178,7 +1178,7 @@
         </div>
 
         <div class="card" id="backtestCard">
-          <h3>ï¸ Verifica a Ritroso</h3>
+          <h3> Verifica a Ritroso</h3>
           <div class="bt-grid">
             <div><label>Ruota</label><select id="btRuotaSelect"></select></div>
             <div><label>Data (calendario)</label><input type="date" id="btDateInput"></div>
@@ -1186,20 +1186,20 @@
             <div><label>Top candidati</label><input type="number" id="btTopN" value="10" min="5" max="45"></div>
           </div>		  
           <div class="btn-row" style="margin-top:8px;">
-            <button class="step primary" id="btRun">ðŸ” Verifica a ritroso</button>
+            <button class="step primary" id="btRun"> Verifica a ritroso</button>
           </div>
           <div id="btResults"></div>
         </div>
 
         <div class="card">
-          <h3>ðŸ¤– Motore Previsivo <span style="font-size:11px;color:#8a7a5c;">L1 Â· Vertici Interattivi</span></h3>
+          <h3> Motore Previsivo <span style="font-size:11px;color:#8a7a5c;">L1  Vertici Interattivi</span></h3>
           <div class="btn-row">
             <button class="step primary" id="engineRun">âš¡ Genera figure e previsione</button>
           </div>
           <div class="btn-row" style="margin-top:6px;">
-            <button class="step" id="heatToggle">ðŸ”¥ Calore</button>
+            <button class="step" id="heatToggle"> Calore</button>
             <button class="step" id="tourBtn"> Tour</button>
-            <button class="step" id="engineClear">ðŸ§¹</button>
+            <button class="step" id="engineClear"></button>
           </div>
           <div id="engineResults"></div>
           <div style="font-size:10.5px;color:#8a7a5c;font-style:italic;margin-top:8px;text-align:center;">
