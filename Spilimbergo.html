@@ -860,7 +860,7 @@
 	.dist-tag{background:rgba(224,176,74,.15);border:1px solid var(--gold-fill);color:var(--gold-fill);
 	font-family:'Cormorant Garamond',serif;font-weight:600;font-size:13px;padding:2px 8px;border-radius:10px;}
 	.dist-tag.double{background:rgba(224,85,44,.18);border-color:#e0552c;color:#e0552c;}
-	/* v2.11: ðŸª¨ Propagazione â€” Sasso nel Lago (rosso brillante) */
+	/* v2.11: 🪨 Propagazione  Sasso nel Lago (rosso brillante) */
 	.ripple-wave {
 	  fill: none; stroke: #ff2d1a; stroke-width: 1.8;
 	  stroke-dasharray: 5 6; pointer-events: none;
@@ -901,15 +901,15 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>Cerchio di Spilimbergo â€” Suite Completa v2.10</h1>
-	<p class="subtitle">ðŸ” Doppie Distanze Â· Logica 38 Â· Rx = ritardo MAX storico Â· Data da calendario Â· Tracker per ruota Â· Vertici Interattivi Â· Fuori 90</p>
+    <h1>Cerchio di Spilimbergo  Suite Completa v2.10</h1>
+	<p class="subtitle">🔍 Doppie Distanze · Logica 38 · Rx = ritardo MAX storico · Data da calendario · Tracker per ruota · Vertici Interattivi · Fuori 90</p>
 
     <div class="toolbar">
-      <button id="themeToggle">ðŸŒ™ Tema</button>
-      <button id="shareBtn">ðŸ”— Condividi</button>
-      <button id="importDemoBtn">ðŸ“¥ Demo</button>
-      <button id="clearAllBtn">ðŸ—‘ï¸ Pulisci Tutto</button>
-      <button id="guideBtn">â“ Guida</button>
+      <button id="themeToggle">🌙 Tema</button>
+      <button id="shareBtn">🔗 Condividi</button>
+      <button id="importDemoBtn"> Demo</button>
+      <button id="clearAllBtn">🗑️ Pulisci Tutto</button>
+      <button id="guideBtn">❓ Guida</button>
     </div>
 
     <div class="zoom-toolbar" style="display:flex;gap:6px;margin-bottom:10px;justify-content:center;flex-wrap:wrap;">
@@ -930,24 +930,24 @@
         <div class="card" data-ring="0">
           <h3><span class="swatch" style="background:#8c2a2a"></span>Anello interno</h3>
           <div class="btn-row">
-            <button class="step" data-ring="0" data-dir="-1">â†º</button>
-            <button class="step" data-ring="0" data-dir="1">â†»</button>
+            <button class="step" data-ring="0" data-dir="-1">An.Int</button>
+            <button class="step" data-ring="0" data-dir="1">An.Int</button>
           </div>
         </div>
 
         <div class="card" data-ring="1">
           <h3><span class="swatch" style="background:#8c2a2a"></span>Anello medio</h3>
           <div class="btn-row">
-            <button class="step" data-ring="1" data-dir="-1">â†º</button>
-            <button class="step" data-ring="1" data-dir="1">â†»</button>
+            <button class="step" data-ring="1" data-dir="-1">An.Med</button>
+            <button class="step" data-ring="1" data-dir="1">An.Med</button>
           </div>
         </div>
 
         <div class="card" data-ring="2">
           <h3><span class="swatch" style="background:#8c2a2a"></span>Anello esterno</h3>
           <div class="btn-row">
-            <button class="step" data-ring="2" data-dir="-1">â†º</button>
-            <button class="step" data-ring="2" data-dir="1">â†»</button>
+            <button class="step" data-ring="2" data-dir="-1">An.Est</button>
+            <button class="step" data-ring="2" data-dir="1">An.Est</button>
           </div>
         </div>
 
@@ -963,7 +963,7 @@
         </div>
 
         <div class="card" style="border:2px solid #9b59b6;">
-          <h3>ðŸ§­ Logica 38 â€” Colonne di Cadenza <span style="font-size:11px;color:#8a7a5c;">v2.9</span></h3>
+          <h3> Logica 38  Colonne di Cadenza <span style="font-size:11px;color:#8a7a5c;">v2.9</span></h3>
           <div class="bt-grid">
             <div><label>Ruota</label><select id="l38Ruota"></select></div>
             <div><label>Primo estratto</label><input type="number" id="l38Num" min="1" max="90" placeholder="es. 38"></div>
@@ -979,16 +979,16 @@
             <div style="grid-column:1/-1;"><label>Data analisi (calendario)</label><input type="date" id="l38Date"></div>
           </div>
           <div class="btn-row" style="margin-top:8px;">
-            <button class="step primary" id="l38Run">ðŸ§­ Imposta cerchio & colonne</button>
+            <button class="step primary" id="l38Run"> Imposta cerchio & colonne</button>
           </div>
           <div id="l38Cols"></div>
           <div class="btn-row" style="margin-top:6px;">
-            <button class="step" id="l38Shrink">ðŸ“‰ Shrink 9â†’2</button>
-            <button class="step" id="l38Terzine">ðŸ§© Terzine 280</button>
-            <button class="step" id="l38Save">ðŸ’¾ Salva (9 conc.)</button>
+            <button class="step" id="l38Shrink">📉 Shrink 9→2</button>
+            <button class="step" id="l38Terzine">Terzine 280</button>
+            <button class="step" id="l38Save">💾 Salva (9 conc.)</button>
           </div>
           <div style="font-size:10px;color:#8a7a5c;margin-top:6px;line-height:1.5;">
-            Rc = ritardo corrente (ambo nella combinazione) Â· Rx = <b>massimo ritardo storico</b> mai registrato dalla combinazione (filtro Rc â‰¥ Rx = "mai stata cosÃ¬ ritardata"). Shrink e Terzine usano l'archivio fino alla data scelta.
+            Rc = ritardo corrente (ambo nella combinazione) · Rx = <b>massimo ritardo storico</b> mai registrato dalla combinazione (filtro Rc ≥ Rx = "mai stata così ritardata"). Shrink e Terzine usano l'archivio fino alla data scelta.
           </div>
           <div id="l38Results"></div>
           <div id="l38Tracker"></div>
@@ -996,7 +996,7 @@
        
 	    <!-- v2.9.1: Verifica Estrazioni per Periodo -->
 		<div class="card" style="border:2px solid #4fae7a;margin-top:12px;">
-		  <h3>ðŸ“… Verifica Estrazioni per Periodo</h3>
+		  <h3>📅 Verifica Estrazioni per Periodo</h3>
 		  <div class="bt-grid">
 			<div><label>Dal</label><input type="date" id="verDataDal"></div>
 			<div><label>Al</label><input type="date" id="verDataAl"></div>
@@ -1009,8 +1009,8 @@
 	   
 	    <!-- v2.10: RICERCA AUTOMATICA PER DOPPIE DISTANZE -->
 		<div class="card dist-card">
-		<h3>ðŸ” Doppie Distanze <span style="font-size:11px;color:#8a7a5c;">v2.10</span></h3>
-		<div class="esiti-subtitle">Cerca terzine sulla ruota target che hanno le doppie distanze dell'estrazione sorgente, con filtro Rc â‰¥ Rx.</div>
+		<h3>🔍 Doppie Distanze <span style="font-size:11px;color:#8a7a5c;">v2.10</span></h3>
+		<div class="esiti-subtitle">Cerca terzine sulla ruota target che hanno le doppie distanze dell'estrazione sorgente, con filtro Rc ≥ Rx.</div>
 		<div class="bt-grid">
 		<div><label>Ruota Sorgente</label><select id="distRuotaSorgente"></select></div>
 		<div><label>Ruota Target</label><select id="distRuotaTarget"></select></div>
@@ -1020,19 +1020,19 @@
 		</div>
 		</div>
 		<div class="btn-row" style="margin-top:8px;">
-		<button class="step primary" id="distRun" style="flex:1;">ðŸ” Cerca Terzine Ottimali</button>
+		<button class="step primary" id="distRun" style="flex:1;">🔍 Cerca Terzine Ottimali</button>
 		</div>
 		<div id="distDistanze"></div>
 		<div id="distResults"></div>
 		</div>
-		<!-- v2.11: ðŸª¨ PROPAGAZIONE â€” SASSO NEL LAGO -->
+		<!-- v2.11: 🪨 PROPAGAZIONE  SASSO NEL LAGO -->
 		<div class="card" style="border:2px solid #ff2d1a;" id="propagCard">
-		  <h3>ðŸª¨ Propagazione <span style="font-size:11px;color:#8a7a5c;">Sasso nel Lago</span></h3>
+		  <h3>🪨 Propagazione <span style="font-size:11px;color:#8a7a5c;">Sasso nel Lago</span></h3>
 		  <div class="esiti-subtitle">
-			Ogni numero evidenziato (ðŸŸ¡ oro o ðŸŸ¢ verde) Ã¨ un <b>sasso</b>: genera
+			Ogni numero evidenziato (🟡 oro o 🟢 verde) è un <b>sasso</b>: genera
 			<b>onde radiali</b> (stesso settore sugli altri anelli = echi) e
-			<b>onde angolari</b> (Î” ciclometriche 15/30/45/60).
-			Dove due onde si incontrano â†’ <b>interferenza costruttiva</b> (forza amplificata).
+			<b>onde angolari</b> (Δ ciclometriche 15/30/45/60).
+			Dove due onde si incontrano → <b>interferenza costruttiva</b> (forza amplificata).
 		  </div>
 		  <div class="bt-grid">
 			<div><label>Bonus interferenza (%)</label><input type="number" id="propagBonus" value="25" min="0" max="100" step="5"></div>
@@ -1046,15 +1046,15 @@
 		  <button class="step" id="propagTune" style="flex:1;border-color:#e0552c;color:#e0552c;"> Auto-Tuning statistico</button>
 		  </div>
 		  <div class="btn-row" style="margin-top:8px;">
-			<button class="step primary" id="propagRun" style="flex:1;">ðŸª¨ Lancia i sassi</button>
-			<button class="step" id="propagHeat">ðŸ”¥ Mappa</button>
-			<button class="step danger" id="propagClear">ðŸ§¹</button>
+			<button class="step primary" id="propagRun" style="flex:1;">🪨 Lancia i sassi</button>
+			<button class="step" id="propagHeat">🔥 Mappa</button>
+			<button class="step danger" id="propagClear">🧹</button>
 		  </div>
 		  <div id="propagResults"></div>
 		</div>
 
         <div class="card">
-          <h3>ðŸ“Š Statistiche & Pattern</h3>
+          <h3> Statistiche & Pattern</h3>
           <div class="btn-row">
             <select id="statsRuota" style="flex:1;"></select>
             <button class="step" id="statsRun" style="flex:0 0 auto;padding:8px 14px;">Analizza</button>
@@ -1067,29 +1067,29 @@
         </div>
 
         <div class="card" id="archiveCard">
-          <h3>ðŸ“š Archivio Estrazioni</h3>
+          <h3> Archivio Estrazioni</h3>
           <div class="download-info">
-            <strong>ðŸ“¥ Come caricare l'archivio:</strong>
+            <strong> Come caricare l'archivio:</strong>
             <ol>
               <li>Scarica manualmente il file: <a href="https://www.brightstarlottery.it/STORICO_ESTRAZIONI_LOTTO/storico.zip" target="_blank">storico.zip</a></li>
-              <li>Clicca su <strong>"ðŸ“‚ Carica ZIP Locale"</strong> qui sotto</li>
+              <li>Clicca su <strong> Carica ZIP Locale"</strong> qui sotto</li>
               <li>Seleziona il file ZIP appena scaricato</li>
-              <li>Il sistema lo decomprimerÃ  e creerÃ  la cache automaticamente</li>
+              <li>Il sistema lo decomprimerà e creerà la cache automaticamente</li>
             </ol>
-            <em>ðŸ’¡ La cache resta salvata nel browser per usi futuri!</em>
+            <em>💡 La cache resta salvata nel browser per usi futuri!</em>
           </div>
           <div class="archive-info">
             <span class="status-dot status-no" id="cacheStatusDot"></span>
             <span id="cacheInfoText">Nessuna cache</span>
           </div>
           <div class="btn-row">
-            <button class="step primary" id="btnLoadLocal">ðŸ“‚ Carica ZIP Locale</button>
+            <button class="step primary" id="btnLoadLocal"> Carica ZIP Locale</button>
             <input type="file" id="fileInput" accept=".zip" style="display:none;">
           </div>
           <div class="btn-row" style="margin-top:6px;">
-            <button class="step" id="btnLoadCache" disabled>ðŸ’¾ Carica Cache</button>
-            <button class="step" id="btnValida" disabled>ðŸ” Valida</button>
-            <button class="step danger" id="btnClearCache">ðŸ—‘ï¸ Cancella</button>
+            <button class="step" id="btnLoadCache" disabled>💾 Carica Cache</button>
+            <button class="step" id="btnValida" disabled>🔍 Valida</button>
+            <button class="step danger" id="btnClearCache">🗑️ Cancella</button>
           </div>
           <div class="progress-bar-bg" id="progressWrap">
             <div class="progress-bar-fill" id="progressBar"></div>
@@ -1194,7 +1194,7 @@
         <div class="card">
           <h3> Motore Previsivo <span style="font-size:11px;color:#8a7a5c;">L1  Vertici Interattivi</span></h3>
           <div class="btn-row">
-            <button class="step primary" id="engineRun">âš¡ Genera figure e previsione</button>
+            <button class="step primary" id="engineRun">⚡ Genera figure e previsione</button>
           </div>
           <div class="btn-row" style="margin-top:6px;">
             <button class="step" id="heatToggle"> Calore</button>
@@ -1228,7 +1228,7 @@ Napoli 12 34 56 72 90"></textarea>
           <div class="hist-list" id="histList"></div>
           <div class="btn-row" style="margin-top:6px;">
             <select id="ruotaFilter"></select>
-            <button class="step primary" id="convRun">ðŸ”€ Convergenze</button>
+            <button class="step primary" id="convRun">🔀 Convergenze</button>
           </div>
           <div id="convResults"></div>
         </div>
@@ -1299,22 +1299,22 @@ Napoli 12 34 56 72 90"></textarea>
     <div class="guide-box">
       <button class="guide-close" id="guideClose"> Chiudi</button>
       <h2>Guida alla Suite Completa v2.9</h2>
-      <h4>Rc / Rx corretti (NOVITÃ€ v2.9)</h4>
-      <p><b>Rc</b> = ritardo corrente della combinazione (concorsi dall'ultimo ambo realizzato al suo interno). <b>Rx</b> = <b>massimo ritardo storico</b> mai registrato dalla stessa combinazione sull'archivio della ruota fino alla data scelta (il piÃ¹ lungo intervallo passato senza ambi). Il filtro <b>Rc â‰¥ Rx</b> segnala combinazioni "mai state cosÃ¬ ritardate". Per i gruppi di 3 terzine: Rc = somma dei ritardi correnti, Rx = somma delle attese empiriche.</p>
-      <h4>Data da calendario (NOVITÃ€ v2.9)</h4>
+      <h4>Rc / Rx corretti (NOVITÀ v2.9)</h4>
+      <p><b>Rc</b> = ritardo corrente della combinazione (concorsi dall'ultimo ambo realizzato al suo interno). <b>Rx</b> = <b>massimo ritardo storico</b> mai registrato dalla stessa combinazione sull'archivio della ruota fino alla data scelta (il più lungo intervallo passato senza ambi). Il filtro <b>Rc ≥ Rx</b> segnala combinazioni "mai state così ritardate". Per i gruppi di 3 terzine: Rc = somma dei ritardi correnti, Rx = somma delle attese empiriche.</p>
+      <h4>Data da calendario (NOVITÀ v2.9)</h4>
       <p>Nella Logica 38 puoi fissare la data di analisi: shrink e terzine vengono calcolati sull'archivio <b>fino a quella data</b>, come nello script originale. Il tracker verifica invece sempre sulle ultime 9 estrazioni reali.</p>
-      <h4>Tracker per ruota (NOVITÃ€ v2.9)</h4>
-      <p>Il riepilogo previsioni mostra <b>solo la ruota selezionata</b>; ogni riga ha âœ• per eliminarla e c'Ã¨ ï¸ per cancellarle tutte in blocco.</p>
-      <h4>Logica 38 â€” Colonne di Cadenza (v2.8)</h4>
-      <p>Imposta ruota e primo estratto (es. Genova 38). Cadenza da radice/complemento/manuale; la novina occupa 3 colonne sul cerchio: ambo = interno+medio, escluso = esterno (â‡„ scambia). ðŸ“‰ Shrink 9â†’2 e ðŸ§© 280 terzine; ðŸ’¾ salva con durata 9 concorsi.</p>
+      <h4>Tracker per ruota (NOVITÀ v2.9)</h4>
+      <p>Il riepilogo previsioni mostra <b>solo la ruota selezionata</b>; ogni riga ha ✕ per eliminarla e c'è ️ per cancellarle tutte in blocco.</p>
+      <h4>Logica 38  Colonne di Cadenza (v2.8)</h4>
+      <p>Imposta ruota e primo estratto (es. Genova 38). Cadenza da radice/complemento/manuale; la novina occupa 3 colonne sul cerchio: ambo = interno+medio, escluso = esterno (⇄ scambia). 📉 Shrink 9→2 e 280 terzine; 💾 salva con durata 9 concorsi.</p>
       <h4>Vertici Interattivi (v2.7)</h4>
       <p>Mouse/tap su un vertice: il numero coperto appare ingrandito e leggibile.</p>
-      <h4>Figure Selezionabili (v2.6) Â· Sviluppo Dinamico (v2.5) Â· Fuori 90</h4>
-      <p>Clicca una Î” della firma per vedere solo quella figura; i calcoli &gt;90 normalizzati in 1-90.</p>
+      <h4>Figure Selezionabili (v2.6) · Sviluppo Dinamico (v2.5) · Fuori 90</h4>
+      <p>Clicca una Δ della firma per vedere solo quella figura; i calcoli &gt;90 normalizzati in 1-90.</p>
       <h4>Altri moduli</h4>
-      <p>Archivio ZIP+IndexedDB Â· Manna Â· Piramide Â· Spie Â· Figure Mancanti Â· Cadenze & Decine Â· Backtest Â· Convergenze Â· Allineamenti Â· Numeri Promettenti.</p>
-      <h4>âš ï¸ Nota importante</h4>
-      <p>Metodi della tradizione lottologica, privi di validitÃ  scientifica. Il Lotto Ã¨ casuale. Gioca responsabilmente.</p>
+      <p>Archivio ZIP+IndexedDB · Manna · Piramide · Spie · Figure Mancanti · Cadenze & Decine · Backtest · Convergenze · Allineamenti · Numeri Promettenti.</p>
+      <h4>⚠️ Nota importante</h4>
+      <p>Metodi della tradizione lottologica, privi di validità scientifica. Il Lotto è casuale. Gioca responsabilmente.</p>
     </div>
   </div>
 
@@ -1417,10 +1417,10 @@ Napoli 12 34 56 72 90"></textarea>
         db.close();
         localStorage.setItem(CACHE_META_KEY, JSON.stringify({ ultimaData, nRighe: righe.length }));
         if (navigator.storage && navigator.storage.persist) navigator.storage.persist();
-        logArchivio(`âœ… Cache salvata (IndexedDB): ${righe.length.toLocaleString('it-IT')} righe, ultima: ${ultimaData}`, 'ok');
+        logArchivio(`✅ Cache salvata (IndexedDB): ${righe.length.toLocaleString('it-IT')} righe, ultima: ${ultimaData}`, 'ok');
         return true;
       } catch (e) {
-        logArchivio(`âŒ Errore salvataggio IndexedDB: ${e.message}`, 'err');
+        logArchivio(`❌ Errore salvataggio IndexedDB: ${e.message}`, 'err');
         return false;
       }
     }
@@ -1438,10 +1438,10 @@ Napoli 12 34 56 72 90"></textarea>
         if (!dati) return null;
         const righe = dati.righe.map(a => ({ data: a[0], ruota: a[1], n1: a[2], n2: a[3], n3: a[4], n4: a[5], n5: a[6] }));
         archivio = { righe, ultimaData: dati.ultimaData };
-        logArchivio(`ðŸ“‚ Cache caricata (IndexedDB): ${righe.length.toLocaleString('it-IT')} righe, ultima: ${dati.ultimaData}`, 'ok');
+        logArchivio(` Cache caricata (IndexedDB): ${righe.length.toLocaleString('it-IT')} righe, ultima: ${dati.ultimaData}`, 'ok');
         return { righe, ultimaData: dati.ultimaData };
       } catch (e) {
-        logArchivio(`âŒ Errore lettura cache: ${e.message}`, 'err');
+        logArchivio(`❌ Errore lettura cache: ${e.message}`, 'err');
         return null;
       }
     }
@@ -1461,8 +1461,8 @@ Napoli 12 34 56 72 90"></textarea>
       archivio = null;
       document.getElementById('validationReport').style.display = 'none';
       updateArchiveUI();
-      logArchivio('ðŸ—‘ï¸ Cache cancellata', 'warn');
-      showNotification('ðŸ—‘ï¸ Cache cancellata');
+      logArchivio('🗑️ Cache cancellata', 'warn');
+      showNotification('🗑️ Cache cancellata');
     }
 
     function logArchivio(msg, tipo = '') {
@@ -1485,7 +1485,7 @@ Napoli 12 34 56 72 90"></textarea>
       const info = document.getElementById('cacheInfoText');
       if (esiste) {
         dot.className = 'status-dot status-ok';
-        info.textContent = `${archivio.righe.length.toLocaleString('it-IT')} righe Â· ultima: ${archivio.ultimaData}`;
+        info.textContent = `${archivio.righe.length.toLocaleString('it-IT')} righe · ultima: ${archivio.ultimaData}`;
         document.getElementById('btnValida').disabled = false;
         document.getElementById('btnUseLast1').disabled = false;
         document.getElementById('btnUseLast3').disabled = false;
@@ -1539,14 +1539,14 @@ Napoli 12 34 56 72 90"></textarea>
 
     async function caricaArchivioLocale(file) {
       setProgress(10, 'Decomprimo ZIP...');
-      logArchivio(`ðŸ“¦ Decomprimo ${file.name}...`);
+      logArchivio(`📦 Decomprimo ${file.name}...`);
       try {
         const zip = await JSZip.loadAsync(file);
         const storicoFile = zip.file('storico.txt');
         if (!storicoFile) throw new Error('File storico.txt non trovato nel ZIP');
         const raw = await storicoFile.async('text');
         setProgress(50, 'Analizzo estrazioni...');
-        logArchivio(`ðŸ“„ Analisi file storico.txt...`);
+        logArchivio(`📄 Analisi file storico.txt...`);
         const frames = [];
         const ruoteViste = new Set();
         const dateViste = new Set();
@@ -1567,8 +1567,8 @@ Napoli 12 34 56 72 90"></textarea>
         }
         setProgress(80, 'Ordino e salvo...');
         if (!frames.length) {
-          logArchivio('âŒ Nessun dato valido trovato', 'err');
-          showNotification('âŒ Nessun dato valido nel file');
+          logArchivio('❌ Nessun dato valido trovato', 'err');
+          showNotification('❌ Nessun dato valido nel file');
           setProgress(100, 'Completato');
           return;
         }
@@ -1576,23 +1576,23 @@ Napoli 12 34 56 72 90"></textarea>
         archivio = { righe: frames, ultimaData: frames[frames.length - 1].data };
         const ok = await salvaCache(frames, archivio.ultimaData);
         if (!ok) {
-          logArchivio('âš ï¸ Dati disponibili SOLO per la sessione corrente', 'warn');
-          showNotification('ï¸ Salvataggio non riuscito: dati solo per questa sessione', 4000);
+          logArchivio('⚠️ Dati disponibili SOLO per la sessione corrente', 'warn');
+          showNotification('️ Salvataggio non riuscito: dati solo per questa sessione', 4000);
         }
         updateArchiveUI();
         setupBtDateRange();
         setupL38DateRange();
         renderL38Tracker();
-        showNotification(`ðŸ“¥ ${archivio.righe.length.toLocaleString('it-IT')} righe in archivio`);
+        showNotification(` ${archivio.righe.length.toLocaleString('it-IT')} righe in archivio`);
       } catch (e) {
-        logArchivio(`âŒ Errore: ${e.message}`, 'err');
-        showNotification(`âŒ Errore: ${e.message}`);
+        logArchivio(`❌ Errore: ${e.message}`, 'err');
+        showNotification(`❌ Errore: ${e.message}`);
       }
       setProgress(100, 'Completato');
     }
 
     function validaDati() {
-      if (!archivio || !archivio.righe.length) { showNotification('ï¸ Nessun dato'); return; }
+      if (!archivio || !archivio.righe.length) { showNotification('️ Nessun dato'); return; }
       const box = document.getElementById('validationReport');
       box.style.display = 'block';
       const perRuota = {};
@@ -1602,18 +1602,18 @@ Napoli 12 34 56 72 90"></textarea>
         if (parseData(r.data) < parseData(perRuota[r.ruota].min)) perRuota[r.ruota].min = r.data;
         if (parseData(r.data) > parseData(perRuota[r.ruota].max)) perRuota[r.ruota].max = r.data;
       });
-      let html = `<div style="font-weight:600;color:#4fae7a;">âœ… VALIDAZIONE OK</div>`;
-      html += `<div style="margin-top:4px;">Righe: <b>${archivio.righe.length.toLocaleString('it-IT')}</b> Â· Ruote: <b>${Object.keys(perRuota).length}/11</b></div>`;
+      let html = `<div style="font-weight:600;color:#4fae7a;">✅ VALIDAZIONE OK</div>`;
+      html += `<div style="margin-top:4px;">Righe: <b>${archivio.righe.length.toLocaleString('it-IT')}</b> · Ruote: <b>${Object.keys(perRuota).length}/11</b></div>`;
       const venus = archivio.righe.filter(r => parseData(r.data) >= parseData('2005-05-05')).length;
       const quattro = archivio.righe.filter(r => parseData(r.data) >= parseData('2023-07-07')).length;
-      html += `<div style="margin-top:4px;color:#c9b98f;">Epoca Venus: ${venus.toLocaleString('it-IT')} righe Â· 4 Estrazioni: ${quattro.toLocaleString('it-IT')} righe</div>`;
+      html += `<div style="margin-top:4px;color:#c9b98f;">Epoca Venus: ${venus.toLocaleString('it-IT')} righe · 4 Estrazioni: ${quattro.toLocaleString('it-IT')} righe</div>`;
       html += `<table><tr><th>Ruota</th><th>Estrazioni</th><th>Prima</th><th>Ultima</th></tr>`;
       for (const [ruota, s] of Object.entries(perRuota)) {
         html += `<tr><td>${ruota} ${CODICE_TO_NOME[ruota] || ''}</td><td>${s.n.toLocaleString('it-IT')}</td><td>${s.min}</td><td>${s.max}</td></tr>`;
       }
       html += `</table>`;
       box.innerHTML = html;
-      logArchivio(`ðŸ” Validazione completata`, 'ok');
+      logArchivio(`🔍 Validazione completata`, 'ok');
     }
 
     function filtraPerEpoca(righe) {
@@ -1630,7 +1630,7 @@ Napoli 12 34 56 72 90"></textarea>
       let sub = archivio.righe.filter(r => r.ruota === ruota);
       sub = filtraPerEpoca(sub);
       sub.sort((a, b) => parseData(a.data) - parseData(b.data));
-      if (!sub.length) { showNotification('ï¸ Nessuna estrazione per questa ruota/epoca'); return; }
+      if (!sub.length) { showNotification('️ Nessuna estrazione per questa ruota/epoca'); return; }
       const ultime = sub.slice(-n);
       drawHighlighted.clear();
       ultime.forEach(r => [r.n1, r.n2, r.n3, r.n4, r.n5].forEach(x => drawHighlighted.add(x)));
@@ -1638,8 +1638,8 @@ Napoli 12 34 56 72 90"></textarea>
       analizzaCoerenzaEstrazioneUI([...drawHighlighted]);
       aggiornaCadenzeDecine();
       const dateStr = ultime.map(r => r.data).join(', ');
-      showNotification(`ðŸŽ¯ ${CODICE_TO_NOME[ruota]}: ${ultime.length} estraz. (${dateStr})`, 3500);
-      logArchivio(`ðŸŽ¯ Caricate ${ultime.length} estrazioni di ${ruota} sul Cerchio`, 'ok');
+      showNotification(` ${CODICE_TO_NOME[ruota]}: ${ultime.length} estraz. (${dateStr})`, 3500);
+      logArchivio(` Caricate ${ultime.length} estrazioni di ${ruota} sul Cerchio`, 'ok');
     }
 
     // ============================================================
@@ -1698,7 +1698,7 @@ Napoli 12 34 56 72 90"></textarea>
         document.getElementById('statsResults').innerHTML = '<div style="color:#8a7a5c;padding:8px;text-align:center;">Carica prima l\'archivio</div>';
         return;
       }
-      let html = `<div style="color:var(--brass-hi);font-weight:600;margin:8px 0 6px;font-size:12px;">Top 10 numeri piÃ¹ frequenti (${analisi.totale} estrazioni):</div>`;
+      let html = `<div style="color:var(--brass-hi);font-weight:600;margin:8px 0 6px;font-size:12px;">Top 10 numeri più frequenti (${analisi.totale} estrazioni):</div>`;
       html += `<div class="stats-grid">`;
       analisi.top10.forEach(t => {
         html += `<div class="stat-item" data-n="${t.n}">
@@ -1730,7 +1730,7 @@ Napoli 12 34 56 72 90"></textarea>
         document.getElementById('statsResults').innerHTML = '<div style="color:#8a7a5c;padding:8px;text-align:center;">Carica prima l\'archivio</div>';
         return;
       }
-      let html = `<div style="color:var(--brass-hi);font-weight:600;margin:8px 0 6px;font-size:12px;">Top 15 coppie piÃ¹ frequenti (${analisi.totale} estrazioni):</div>`;
+      let html = `<div style="color:var(--brass-hi);font-weight:600;margin:8px 0 6px;font-size:12px;">Top 15 coppie più frequenti (${analisi.totale} estrazioni):</div>`;
       html += `<div class="pattern-box">`;
       analisi.coppie.slice(0, 15).forEach(p => {
         html += `<div class="pattern-item" data-pair="${p.coppia}">
@@ -1739,7 +1739,7 @@ Napoli 12 34 56 72 90"></textarea>
         </div>`;
       });
       html += `</div>`;
-      html += `<div style="color:var(--brass-hi);font-weight:600;margin:12px 0 6px;font-size:12px;">Top 10 triple piÃ¹ frequenti:</div>`;
+      html += `<div style="color:var(--brass-hi);font-weight:600;margin:12px 0 6px;font-size:12px;">Top 10 triple più frequenti:</div>`;
       html += `<div class="pattern-box">`;
       analisi.triple.slice(0, 10).forEach(p => {
         html += `<div class="pattern-item" data-triple="${p.tripla}">
@@ -1757,10 +1757,10 @@ Napoli 12 34 56 72 90"></textarea>
           renderChips();
           renderAll();
           aggiornaCadenzeDecine();
-          showNotification(`ðŸ“Š ${nums.length} numeri evidenziati`);
+          showNotification(` ${nums.length} numeri evidenziati`);
         });
       });
-      showNotification(`ðŸ“Š Pattern ${CODICE_TO_NOME[ruota]} caricati`);
+      showNotification(` Pattern ${CODICE_TO_NOME[ruota]} caricati`);
     }
 
     // ============================================================
@@ -1768,13 +1768,13 @@ Napoli 12 34 56 72 90"></textarea>
     // ============================================================
     function runManna() {
       if (!archivio || !archivio.righe.length) {
-        showNotification('âš ï¸ Carica prima l\'archivio');
+        showNotification('⚠️ Carica prima l\'archivio');
         return;
       }
       const ruota = document.getElementById('mannaRuota').value;
       const sub = archivio.righe.filter(r => r.ruota === ruota).sort((a, b) => parseData(b.data) - parseData(a.data)).slice(0, 3);
       if (sub.length < 3) {
-        showNotification('âš ï¸ Servono almeno 3 estrazioni');
+        showNotification('⚠️ Servono almeno 3 estrazioni');
         return;
       }
       const e1 = [sub[2].n1, sub[2].n2, sub[2].n3, sub[2].n4, sub[2].n5];
@@ -1819,7 +1819,7 @@ Napoli 12 34 56 72 90"></textarea>
       html += `<div class="manna-cell header">Spie</div>`;
       spie.forEach(n => { html += `<div class="manna-cell result">${n}</div>`; });
       html += `</div>`;
-      html += `<div class="btn-row" style="margin-top:10px;"><button class="step primary" id="mannaHighlight">ðŸŽ¯ Evidenzia previsioni</button></div>`;
+      html += `<div class="btn-row" style="margin-top:10px;"><button class="step primary" id="mannaHighlight"> Evidenzia previsioni</button></div>`;
       document.getElementById('mannaResults').innerHTML = html;
       document.getElementById('mannaHighlight').addEventListener('click', () => {
         MANNA_RESULTS.forEach(n => highlighted.add(n));
@@ -1838,12 +1838,12 @@ Napoli 12 34 56 72 90"></textarea>
     function runPiramide() {
       const base = getBase();
       if (base.length < 2) {
-        showNotification('ï¸ Carica prima almeno 2 numeri');
+        showNotification('️ Carica prima almeno 2 numeri');
         return;
       }
       const nums = base.slice(0, 5).sort((a, b) => a - b);
       if (nums.length < 2) {
-        showNotification('âš ï¸ Servono almeno 2 numeri');
+        showNotification('⚠️ Servono almeno 2 numeri');
         return;
       }
       let rows = [nums];
@@ -1868,21 +1868,21 @@ Napoli 12 34 56 72 90"></textarea>
       });
       html += `</div>`;
       html += `<div style="text-align:center;margin-top:10px;font-size:13px;color:#c9b98f;">Vertice previsto: <b style="color:#9b59b6;font-size:18px;">${vertice}</b></div>`;
-      html += `<div class="btn-row" style="margin-top:10px;"><button class="step primary" id="piramideHighlight">ðŸŽ¯ Evidenzia vertice</button></div>`;
+      html += `<div class="btn-row" style="margin-top:10px;"><button class="step primary" id="piramideHighlight"> Evidenzia vertice</button></div>`;
       document.getElementById('piramideResults').innerHTML = html;
       document.getElementById('piramideHighlight').addEventListener('click', () => {
         highlighted.add(vertice);
         renderChips();
         renderAll();
         aggiornaCadenzeDecine();
-        showNotification(`ðŸ”º Vertice ${vertice} evidenziato`);
+        showNotification(`🔺 Vertice ${vertice} evidenziato`);
       });
-      showNotification(`ðŸ”º Piramide generata con vertice ${vertice}`);
+      showNotification(`🔺 Piramide generata con vertice ${vertice}`);
       renderNumeriPromettenti();
     }
 	
 	// ============================================================
-	// v2.11: ðŸª¨ PROPAGAZIONE â€” SASSO NEL LAGO
+	// v2.11: 🪨 PROPAGAZIONE  SASSO NEL LAGO
 	// ============================================================
 	function calcolaPropagazione() {
 	  const sassi = [...new Set([...highlighted, ...drawHighlighted])];
@@ -1901,20 +1901,20 @@ Napoli 12 34 56 72 90"></textarea>
 		if (!pos) return;
 		// 1) ONDE RADIALI: stesso settore sugli altri anelli (echi)
 		const altriAnelli = [0, 1, 2].filter(r => r !== pos.ring);
-		// ordina dal piÃ¹ vicino al piÃ¹ lontano
+		// ordina dal più vicino al più lontano
 		altriAnelli.sort((a, b) => Math.abs(a - pos.ring) - Math.abs(b - pos.ring));
 		altriAnelli.forEach((r, k) => {
-		  const eco = RINGS[r].numbers[pos.idx]; // idx 30/31 = gap â†’ null (l'onda si smorza)
+		  const eco = RINGS[r].numbers[pos.idx]; // idx 30/31 = gap → null (l'onda si smorza)
 		  if (eco != null) add(eco, PROPAG_CFG.radialForce[k] ?? 2, s, `eco radiale di ${s}`);
 		});
-		// 2) ONDE ANGOLARI: Î” ciclometriche in entrambe le direzioni
+		// 2) ONDE ANGOLARI: Δ ciclometriche in entrambe le direzioni
 		Object.keys(PROPAG_CFG.angForce).forEach(step => {
 		  const d = parseInt(step), f = PROPAG_CFG.angForce[step];
-		  add(fuori90(s + d), f, s, `onda Î”${d} di ${s}`);
-		  add(fuori90(s - d), f, s, `onda Î”${d} di ${s}`);
+		  add(fuori90(s + d), f, s, `onda Δ${d} di ${s}`);
+		  add(fuori90(s - d), f, s, `onda Δ${d} di ${s}`);
 		});
 	  });
-	  // 3) INTERFERENZA: chi Ã¨ raggiunto da 2+ sassi viene amplificato
+	  // 3) INTERFERENZA: chi è raggiunto da 2+ sassi viene amplificato
 	  PROPAG.sassi = sassi;
 	  PROPAG.results = [...forze.values()]
 		.map(e => ({ ...e, fonti: [...e.fonti], scoreFinale: e.score * (1 + (e.fonti.size - 1) * PROPAG_CFG.interferenceBonus) }))
@@ -1924,13 +1924,13 @@ Napoli 12 34 56 72 90"></textarea>
 
 	function runPropagazione() {
 	  const sassi = [...new Set([...highlighted, ...drawHighlighted])];
-	  if (!sassi.length) { showNotification('âš ï¸ Evidenzia almeno un numero (il sasso)'); return; }
+	  if (!sassi.length) { showNotification('⚠️ Evidenzia almeno un numero (il sasso)'); return; }
 	  PROPAG_CFG.interferenceBonus = (parseInt(document.getElementById('propagBonus').value) || 25) / 100;
 	  calcolaPropagazione();
 	  PROPAG.active = true;
 	  drawRippleOverlay();
 	  renderPropagPanel(parseInt(document.getElementById('propagTopN').value) || 12);
-	  showNotification(`ðŸª¨ ${sassi.length} sassi â†’ ${PROPAG.results.length} numeri risonanti`);
+	  showNotification(`🪨 ${sassi.length} sassi → ${PROPAG.results.length} numeri risonanti`);
 	  renderNumeriPromettenti();
 	}
 
@@ -1940,15 +1940,15 @@ Napoli 12 34 56 72 90"></textarea>
 	  if (!r.length) { box.innerHTML = '<div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Nessuna risonanza</div>'; return; }
 	  const interferenti = r.filter(c => c.fonti.length > 1);
 	  box.innerHTML = `
-		<div style="margin-top:8px;font-size:11px;color:#c9b98f;">ðŸª¨ Sassi: <b style="color:#ff2d1a;">${PROPAG.sassi.join(', ')}</b>${interferenti.length ? ` Â· ðŸŒŠ zone di interferenza: <b style="color:#4fae7a;">${interferenti.length}</b>` : ''}</div>
+		<div style="margin-top:8px;font-size:11px;color:#c9b98f;">🪨 Sassi: <b style="color:#ff2d1a;">${PROPAG.sassi.join(', ')}</b>${interferenti.length ? ` · 🌊 zone di interferenza: <b style="color:#4fae7a;">${interferenti.length}</b>` : ''}</div>
 		<div class="cand-list">${r.map(c => `
 		  <div class="cand-item" data-n="${c.n}">
 			<span class="cn" style="color:#ff2d1a;">${c.n}</span>
-			<span class="cm">${c.motivi.slice(0, 2).join(' â€¢ ')}${c.fonti.length > 1 ? ` â€¢ <b style="color:#1105f7;">Ã—${c.fonti.length} sassi</b>` : ''}</span>
+			<span class="cm">${c.motivi.slice(0, 2).join(' • ')}${c.fonti.length > 1 ? ` • <b style="color:#1105f7;">×${c.fonti.length} sassi</b>` : ''}</span>
 			<span class="cs">${c.scoreFinale.toFixed(1)}</span>
 		  </div>`).join('')}</div>
 		<div class="btn-row" style="margin-top:6px;">
-		  <button class="step" id="propagHighlight">ðŸŽ¯ Evidenzia top ${Math.min(5, r.length)}</button>
+		  <button class="step" id="propagHighlight"> Evidenzia top ${Math.min(5, r.length)}</button>
 		</div>`;
 	  box.querySelectorAll('.cand-item').forEach(it => {
 		it.addEventListener('click', () => { highlighted.add(parseInt(it.dataset.n)); renderChips(); renderAll(); aggiornaCadenzeDecine(); });
@@ -1956,7 +1956,7 @@ Napoli 12 34 56 72 90"></textarea>
 	  document.getElementById('propagHighlight').addEventListener('click', () => {
 		r.slice(0, 5).forEach(c => highlighted.add(c.n));
 		renderChips(); renderAll(); aggiornaCadenzeDecine();
-		showNotification('ðŸŽ¯ Top risonanti evidenziati');
+		showNotification(' Top risonanti evidenziati');
 	  });
 	}
 
@@ -1986,14 +1986,14 @@ Napoli 12 34 56 72 90"></textarea>
 	}
 
 	function togglePropagHeat() {
-	  if (!PROPAG.results.length) { showNotification('âš ï¸ Prima lancia i sassi (ðŸª¨)'); return; }
+	  if (!PROPAG.results.length) { showNotification('⚠️ Prima lancia i sassi (🪨)'); return; }
 	  PROPAG.heatOn = !PROPAG.heatOn;
 	  if (PROPAG.heatOn) {
 		heatOn = true;
 		heatMap = new Map(PROPAG.results.slice(0, 30).map((c, i) => [c.n, 1 - i / 30]));
 	  } else { heatOn = false; heatMap.clear(); }
 	  applyHeat();
-	  showNotification(PROPAG.heatOn ? 'ðŸ”¥ Mappa di calore propagazione attiva' : 'Mappa spenta');
+	  showNotification(PROPAG.heatOn ? '🔥 Mappa di calore propagazione attiva' : 'Mappa spenta');
 	}
 
 	function clearPropag() {
@@ -2001,7 +2001,7 @@ Napoli 12 34 56 72 90"></textarea>
 	  heatOn = false; heatMap.clear(); applyHeat();
 	  if (rippleG) rippleG.innerHTML = '';
 	  document.getElementById('propagResults').innerHTML = '';
-	  showNotification('ðŸ§¹ Propagazione ripulita');
+	  showNotification('🧹 Propagazione ripulita');
 	}
 	
 	// ---------- AUTO-TUNING STATISTICO (v2.11) ----------
@@ -2095,11 +2095,11 @@ Napoli 12 34 56 72 90"></textarea>
 			<div style="margin-top:10px;padding:10px;background:rgba(224,85,44,.1);border:1px solid #e0552c;border-radius:8px;font-size:12px;">
 			  <div style="color:#e0552c;font-weight:700;margin-bottom:6px;"> Auto-set applicato</div>
 			  <div>Profilo onde: <b>${best.cfg.nome}</b> · radiali ${best.cfg.radialForce[0]}/${best.cfg.radialForce[1]} · interferenza ${Math.round(best.cfg.interferenceBonus * 100)}% · Top ${best.K}</div>
-			  <div style="margin-top:6px;"> Calibrazione (${train.length} estr.): <b style="color:#4fae7a;">${best.media.toFixed(3)}</b> match/estr. · caso puro ${best.baseline.toFixed(3)} · <b>rapporto ${best.ratio.toFixed(2)}×</b></div>
-			  <div>? Verifica fuori campione (${valid.length} estr.): <b style="color:#4fae7a;">${mediaValid.toFixed(3)}</b> match/estr. · caso puro ${baselineValid.toFixed(3)} · <b>rapporto ${(mediaValid / baselineValid).toFixed(2)}×</b></div>
-			  <div style="margin-top:6px;font-size:10.5px;color:#b3a37e;">Rapporto 1.00 = pura casualità. Set ottimizzato sul passato: non garantisce il futuro. Ora usa ?? con i numeri evidenziati.</div>
+			  <div style="margin-top:6px;"> Calibrazione (${train.length} estr.): <b style="color:#4fae7a;">${best.media.toFixed(3)}</b> match/estr. · caso puro ${best.baseline.toFixed(3)} · <b>rapporto ${best.ratio.toFixed(2)}׼/b></div>
+			  <div>? Verifica fuori campione (${valid.length} estr.): <b style="color:#4fae7a;">${mediaValid.toFixed(3)}</b> match/estr. · caso puro ${baselineValid.toFixed(3)} · <b>rapporto ${(mediaValid / baselineValid).toFixed(2)}׼/b></div>
+			  <div style="margin-top:6px;font-size:10.5px;color:#b3a37e;">Rapporto 1.00 = pura casualit஠Set ottimizzato sul passato: non garantisce il futuro. Ora usa ?? con i numeri evidenziati.</div>
 			</div>`;
-		  showNotification(` Set applicato: ${best.cfg.nome} · top ${best.K} (${best.ratio.toFixed(2)}× il caso)`, 4000);
+		  showNotification(` Set applicato: ${best.cfg.nome} · top ${best.K} (${best.ratio.toFixed(2)}נil caso)`, 4000);
 		  renderNumeriPromettenti();
 		} catch (err) {
 		  console.error('Auto-tuning propagazione:', err);
@@ -2113,13 +2113,13 @@ Napoli 12 34 56 72 90"></textarea>
     // ============================================================
     function runSpie() {
       if (!archivio || !archivio.righe.length) {
-        showNotification('ï¸ Carica prima l\'archivio');
+        showNotification('️ Carica prima l\'archivio');
         return;
       }
       const ruota = document.getElementById('spieRuota').value;
       const base = [...drawHighlighted, ...highlighted];
       if (base.length === 0) {
-        showNotification('âš ï¸ Evidenzia prima almeno un numero');
+        showNotification('⚠️ Evidenzia prima almeno un numero');
         return;
       }
       const sub = archivio.righe.filter(r => r.ruota === ruota).sort((a, b) => parseData(a.data) - parseData(b.data));
@@ -2151,7 +2151,7 @@ Napoli 12 34 56 72 90"></textarea>
       } else {
         spieMap.forEach((data, spia) => {
           html += `<div class="spia-card">`;
-          html += `<div class="spia-header"><div class="spia-num">${spia}</div><div style="font-size:11px;color:#c9b98f;">Uscita ${data.uscite} volte Â· Top 3 annunciati:</div></div>`;
+          html += `<div class="spia-header"><div class="spia-num">${spia}</div><div style="font-size:11px;color:#c9b98f;">Uscita ${data.uscite} volte · Top 3 annunciati:</div></div>`;
           html += `<div class="spia-results">`;
           data.top3.forEach(r => {
             html += `<div class="spia-item" data-n="${r.n}">
@@ -2170,10 +2170,10 @@ Napoli 12 34 56 72 90"></textarea>
           renderChips();
           renderAll();
           aggiornaCadenzeDecine();
-          showNotification(`ï¸ ${n} evidenziato come spia`);
+          showNotification(`️ ${n} evidenziato come spia`);
         });
       });
-      showNotification(`ï¸ Analizzate ${spieMap.size} spie su ${CODICE_TO_NOME[ruota]}`);
+      showNotification(`️ Analizzate ${spieMap.size} spie su ${CODICE_TO_NOME[ruota]}`);
     }
 
     // ============================================================
@@ -2181,20 +2181,20 @@ Napoli 12 34 56 72 90"></textarea>
     // ============================================================
     function runFigureDelay() {
       if (!archivio || !archivio.righe.length) {
-        showNotification('âš ï¸ Carica prima l\'archivio');
+        showNotification('⚠️ Carica prima l\'archivio');
         return;
       }
       const ruota = document.getElementById('figDelayRuota').value;
       const sub = archivio.righe.filter(r => r.ruota === ruota).sort((a, b) => parseData(b.data) - parseData(a.data)).slice(0, 100);
       if (sub.length < 10) {
-        showNotification('ï¸ Servono almeno 10 estrazioni');
+        showNotification('️ Servono almeno 10 estrazioni');
         return;
       }
       const figureDelay = {
-        'Opposti 180Â°': { ritardo: 0, trovato: false },
-        'Triangolo 120Â°': { ritardo: 0, trovato: false },
-        'Terzina 60Â°': { ritardo: 0, trovato: false },
-        'Quadrato 90Â°': { ritardo: 0, trovato: false }
+        'Opposti 180°': { ritardo: 0, trovato: false },
+        'Triangolo 120°': { ritardo: 0, trovato: false },
+        'Terzina 60°': { ritardo: 0, trovato: false },
+        'Quadrato 90°': { ritardo: 0, trovato: false }
       };
       sub.forEach((r, idx) => {
         const nums = [r.n1, r.n2, r.n3, r.n4, r.n5];
@@ -2219,9 +2219,9 @@ Napoli 12 34 56 72 90"></textarea>
         </div>`;
       });
       html += `</div>`;
-      html += `<div style="font-size:10px;color:#8a7a5c;margin-top:8px;text-align:center;">Analisi ultime 100 estrazioni Â· Figure con ritardo >15 sono evidenziate</div>`;
+      html += `<div style="font-size:10px;color:#8a7a5c;margin-top:8px;text-align:center;">Analisi ultime 100 estrazioni · Figure con ritardo >15 sono evidenziate</div>`;
       document.getElementById('figDelayResults').innerHTML = html;
-      showNotification(`â° Ritardo figure calcolato per ${CODICE_TO_NOME[ruota]}`);
+      showNotification(`⏰ Ritardo figure calcolato per ${CODICE_TO_NOME[ruota]}`);
     }
 
     // ============================================================
@@ -2260,7 +2260,7 @@ Napoli 12 34 56 72 90"></textarea>
       }
       html += `</div>`;
       html += `<div style="font-size:10px;color:#8a7a5c;margin-top:8px;line-height:1.5;">
-        <span style="color:#e0a0a0;">â– </span> Fredde (assenti) Â· <span style="color:#4fae7a;">â– </span> Calde (â‰¥2 numeri)
+        <span style="color:#e0a0a0;">■</span> Fredde (assenti) · <span style="color:#4fae7a;">■</span> Calde (≥2 numeri)
       </div>`;
       box.innerHTML = html;
     }
@@ -2275,20 +2275,20 @@ Napoli 12 34 56 72 90"></textarea>
       const figs = detectBaseFigures(numeri);
       figs.forEach(f => {
         score += f.type === 'Opposti' ? 3 : f.type === 'Triangolo' ? 4 : f.type === 'Quadrato' ? 5 : 2;
-        dettagli.push({ tipo: 'figura', testo: `âœ“ ${f.type}: ${f.numbers.join('-')}` });
+        dettagli.push({ tipo: 'figura', testo: ` ${f.type}: ${f.numbers.join('-')}` });
       });
       for (let i = 0; i < numeri.length; i++) {
         for (let j = i + 1; j < numeri.length; j++) {
           const diff = Math.abs(numeri[i] - numeri[j]);
           if (diff === 45) {
             score += 2;
-            dettagli.push({ tipo: 'distanza', testo: `âœ“ Opposti (Î”45): ${numeri[i]}-${numeri[j]}` });
+            dettagli.push({ tipo: 'distanza', testo: ` Opposti (Δ45): ${numeri[i]}-${numeri[j]}` });
           } else if (diff === 30 || diff === 60) {
             score += 1.5;
-            dettagli.push({ tipo: 'distanza', testo: `âœ“ Trigono (Î”${diff}): ${numeri[i]}-${numeri[j]}` });
+            dettagli.push({ tipo: 'distanza', testo: ` Trigono (Δ${diff}): ${numeri[i]}-${numeri[j]}` });
           } else if (diff === 15 || diff === 75) {
             score += 1;
-            dettagli.push({ tipo: 'distanza', testo: `âœ“ Sesto (Î”${diff}): ${numeri[i]}-${numeri[j]}` });
+            dettagli.push({ tipo: 'distanza', testo: ` Sesto (Δ${diff}): ${numeri[i]}-${numeri[j]}` });
           }
         }
       }
@@ -2297,7 +2297,7 @@ Napoli 12 34 56 72 90"></textarea>
         const ridotto = ds > 9 ? ds - 9 : ds;
         if (numeri.includes(ridotto) && ridotto !== n) {
           score += 0.5;
-          dettagli.push({ tipo: 'somma', testo: `âœ“ Somma cifre: ${n} â†’ ${ridotto}` });
+          dettagli.push({ tipo: 'somma', testo: ` Somma cifre: ${n} → ${ridotto}` });
         }
       });
       return { score, dettagli: dettagli.slice(0, 10) };
@@ -2365,17 +2365,17 @@ Napoli 12 34 56 72 90"></textarea>
     }
 
     function runBacktest() {
-      if (!archivio || !archivio.righe.length) { showNotification('âš ï¸ Carica prima l\'archivio (Carica ZIP Locale)'); return; }
+      if (!archivio || !archivio.righe.length) { showNotification('⚠️ Carica prima l\'archivio (Carica ZIP Locale)'); return; }
       const ruota = document.getElementById('btRuotaSelect').value;
       const dateStr = document.getElementById('btDateInput').value;
-      if (!dateStr) { showNotification('âš ï¸ Seleziona una data dal calendario'); return; }
+      if (!dateStr) { showNotification('⚠️ Seleziona una data dal calendario'); return; }
       const dSel = parseData(dateStr);
       const nBase = parseInt(document.getElementById('btNumBase').value) || 60;
       const topN = parseInt(document.getElementById('btTopN').value) || 10;
       const sub = archivio.righe.filter(r => r.ruota === ruota).sort((a, b) => parseData(a.data) - parseData(b.data));
-      if (!sub.length) { showNotification('ï¸ Nessuna estrazione per questa ruota'); return; }
+      if (!sub.length) { showNotification('️ Nessuna estrazione per questa ruota'); return; }
       const upTo = sub.filter(r => parseData(r.data) <= dSel);
-      if (upTo.length < 5) { showNotification('âš ï¸ Troppo poche estrazioni fino a questa data'); return; }
+      if (upTo.length < 5) { showNotification('⚠️ Troppo poche estrazioni fino a questa data'); return; }
       const base = upTo.slice(-nBase);
       const exact = sub.find(r => parseData(r.data).getTime() === dSel.getTime());
       const precedente = upTo[upTo.length - 1];
@@ -2399,24 +2399,24 @@ Napoli 12 34 56 72 90"></textarea>
       const topNums = d.topCand.map(c => c.n);
       const hits = actualNums.filter(n => topNums.includes(n));
       let html = `<div class="bt-result">`;
-      html += `<div style="color:var(--brass-hi);font-weight:600;margin-bottom:4px;">ðŸ“Š ${nome} (${d.ruota}) â€” verifica al ${d.dSel.toLocaleDateString('it-IT')}</div>`;
-      html += `<div style="color:#c9b98f;">Base: ${d.base.length} estrazioni (${d.base[0].data} â†’ ${d.base[d.base.length - 1].data})</div>`;
+      html += `<div style="color:var(--brass-hi);font-weight:600;margin-bottom:4px;"> ${nome} (${d.ruota})  verifica al ${d.dSel.toLocaleDateString('it-IT')}</div>`;
+      html += `<div style="color:#c9b98f;">Base: ${d.base.length} estrazioni (${d.base[0].data} → ${d.base[d.base.length - 1].data})</div>`;
       if (d.exact) {
         html += `<div class="bt-label">Estrazione esatta del giorno ${d.exact.data}:</div><div class="bt-row">`;
         [d.exact.n1, d.exact.n2, d.exact.n3, d.exact.n4, d.exact.n5].forEach(n => { html += `<span class="bt-num actual">${n}</span>`; });
         html += `</div>`;
       } else {
         html += `<div style="margin-top:8px;padding:8px;background:rgba(224,176,74,.15);border-radius:6px;color:#e0b04a;font-size:11.5px;line-height:1.6;">
-          âš ï¸ <b>Nessuna estrazione in data ${d.dSel.toLocaleDateString('it-IT')}</b> per ${nome}.<br>
+          ⚠️ <b>Nessuna estrazione in data ${d.dSel.toLocaleDateString('it-IT')}</b> per ${nome}.<br>
           Ultima precedente usata come base: <b>${d.precedente.data}</b><br>
-          <span class="bt-jump" data-data="${d.precISO}">â—€ vai alla data precedente</span> Â·
-          ${d.nextISO ? `<span class="bt-jump" data-data="${d.nextISO}">vai alla successiva â–¶</span>` : ''}
+          <span class="bt-jump" data-data="${d.precISO}">◀ vai alla data precedente</span> ·
+          ${d.nextISO ? `<span class="bt-jump" data-data="${d.nextISO}">vai alla successiva ▶</span>` : ''}
         </div>`;
       }
       html += `<div class="bt-label">Top ${d.topCand.length} numeri previsti (ritardatari + figure + frequenza):</div><div class="bt-row">`;
       d.topCand.forEach(c => {
         const isHit = actualNums.includes(c.n);
-        const title = `ritardo ${c.delay} Â· freq ${(c.frequenza * 100).toFixed(1)}%${c.motivi.length ? ` Â· ${c.motivi.join(', ')}` : ''}`;
+        const title = `ritardo ${c.delay} · freq ${(c.frequenza * 100).toFixed(1)}%${c.motivi.length ? ` · ${c.motivi.join(', ')}` : ''}`;
         html += `<span class="bt-num ${isHit ? 'hit' : ''}" title="${title}">${c.n}</span>`;
       });
       html += `</div>`;
@@ -2429,9 +2429,9 @@ Napoli 12 34 56 72 90"></textarea>
         html += `</div>`;
         const pct = ((hits.length / 5) * 100).toFixed(0);
         html += `<div style="margin-top:8px;font-weight:600;color:${hits.length ? '#4fae7a' : '#e0a0a0'};">`;
-        html += `ðŸŽ¯ Match: ${hits.length}/5 numeri previsti (${pct}%)${hits.length ? ` â†’ ${hits.join(', ')}` : ''}</div>`;
+        html += ` Match: ${hits.length}/5 numeri previsti (${pct}%)${hits.length ? ` → ${hits.join(', ')}` : ''}</div>`;
       } else {
-        html += `<div style="margin-top:8px;color:#e0b04a;">â„¹ï¸ Nessuna estrazione successiva disponibile (data troppo recente)</div>`;
+        html += `<div style="margin-top:8px;color:#e0b04a;">ℹ️ Nessuna estrazione successiva disponibile (data troppo recente)</div>`;
       }
       html += `<div class="btn-row" style="margin-top:10px;">`;
       html += `<button class="step" id="btBringCand"> Porta previsti sul Cerchio</button>`;
@@ -2443,7 +2443,7 @@ Napoli 12 34 56 72 90"></textarea>
       });
       document.getElementById('btBringCand').addEventListener('click', () => {
         drawHighlighted.clear(); topNums.forEach(n => drawHighlighted.add(n));
-        renderDrawChips(); renderAll(); aggiornaCadenzeDecine(); showNotification(`ðŸŽ¯ ${topNums.length} numeri previsti sul Cerchio`);
+        renderDrawChips(); renderAll(); aggiornaCadenzeDecine(); showNotification(` ${topNums.length} numeri previsti sul Cerchio`);
       });
       if (d.nextDraw) {
         document.getElementById('btBringActual').addEventListener('click', () => {
@@ -2494,7 +2494,7 @@ Napoli 12 34 56 72 90"></textarea>
       const box = document.getElementById('esitiContent');
       const risultati = calcolaNumeriPromettenti();
       if (!risultati.length) {
-        box.innerHTML = `<div class="esiti-vuoto">Esegui almeno un'analisi (âš¡ Motore, ðŸ”€ Convergenze, ðŸ•°ï¸ Backtest, ðŸŽ² Manna o ðŸ”º Piramide)<br>poi premi <b>â†» Aggiorna</b>.</div>`;
+        box.innerHTML = `<div class="esiti-vuoto">Esegui almeno un'analisi (⚡ Motore, 🔀 Convergenze, 🕰️ Backtest, 🎲 Manna o 🔺 Piramide)<br>poi premi <b>↻ Aggiorna</b>.</div>`;
         return;
       }
       const maxScore = risultati[0].scoreFinale || 1;
@@ -2503,7 +2503,7 @@ Napoli 12 34 56 72 90"></textarea>
           ${risultati.map((r, i) => `
             <div class="esito-item">
               <div class="esito-num ${i === 0 ? 'top1' : ''}" data-n="${r.n}"
-                   title="Score aggregato ${r.scoreFinale.toFixed(1)} â€” Fonti: ${[...r.fonti.keys()].join(', ')}">
+                   title="Score aggregato ${r.scoreFinale.toFixed(1)}  Fonti: ${[...r.fonti.keys()].join(', ')}">
                 <span class="n">${r.n}</span>
                 <span class="s">${(r.scoreFinale / maxScore * 100).toFixed(0)}</span>
               </div>
@@ -2529,7 +2529,7 @@ Napoli 12 34 56 72 90"></textarea>
         el.addEventListener('click', () => {
           const n = parseInt(el.dataset.n);
           highlighted.add(n); renderChips(); renderAll(); aggiornaCadenzeDecine();
-          showNotification(`ðŸŽ¯ ${n} evidenziato sul Cerchio`);
+          showNotification(` ${n} evidenziato sul Cerchio`);
         });
       });
     }
@@ -2552,11 +2552,11 @@ Napoli 12 34 56 72 90"></textarea>
     let overlayG = null, rippleG = null, heatOn = false, heatMap = new Map(), tourTimer = null;
     const HISTORY = [];
     let CONVERGENCE = [];
-	// v2.11: ðŸª¨ Propagazione
+	// v2.11: 🪨 Propagazione
 	const PROPAG = { active: false, heatOn: false, sassi: [], results: [] };
 	const PROPAG_CFG = {
-	  angForce: { 15: 1.5, 30: 2.0, 45: 3.0, 60: 2.0 },  // Opposto Î”45 = onda piÃ¹ potente
-	  radialForce: [6.0, 3.0],   // eco su anello adiacente = forte, eco a 2 anelli = metÃ 
+	  angForce: { 15: 1.5, 30: 2.0, 45: 3.0, 60: 2.0 },  // Opposto Δ45 = onda più potente
+	  radialForce: [6.0, 3.0],   // eco su anello adiacente = forte, eco a 2 anelli = metà
 	  interferenceBonus: 0.25    // +25% per ogni fonte aggiuntiva in interferenza
 	};
 
@@ -2693,7 +2693,7 @@ Napoli 12 34 56 72 90"></textarea>
       for (let r = 0; r < 3; r++) for (const d in dirs) {
         const v = valueAt(r, dirs[d]);
         const cell = document.getElementById(`r${r}-${d}`);
-        if (v === null) { cell.textContent = 'â€”'; cell.classList.add('blank'); }
+        if (v === null) { cell.textContent = ''; cell.classList.add('blank'); }
         else { cell.textContent = v; cell.classList.remove('blank'); }
       }
     }
@@ -2809,7 +2809,7 @@ Napoli 12 34 56 72 90"></textarea>
 
 	// Trascinamento dello SFONDO (carta) = pan. Sulle ghiere resta attiva la rotazione.
 	svg.addEventListener('pointerdown', e => {
-	  if (e.target.classList.contains('ring-track')) return;  // priorità alla rotazione anelli
+	  if (e.target.classList.contains('ring-track')) return;  // prioritࠡlla rotazione anelli
 	  panning = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y };
 	  svg.classList.add('panning');
 	  svg.setPointerCapture(e.pointerId);
@@ -2817,7 +2817,7 @@ Napoli 12 34 56 72 90"></textarea>
 	svg.addEventListener('pointermove', e => {
 	  if (!panning) return;
 	  const rect = svg.getBoundingClientRect();
-	  const scale = view.w / rect.width;                       // px schermo ? unità SVG
+	  const scale = view.w / rect.width;                       // px schermo ? unitࠓVG
 	  view.x = panning.vx - (e.clientX - panning.x) * scale;
 	  view.y = panning.vy - (e.clientY - panning.y) * scale;
 	  clampView();
@@ -2853,7 +2853,7 @@ Napoli 12 34 56 72 90"></textarea>
       const list = document.getElementById('distanceList');
       const d = calculateDistances();
       if (!d.length) { list.innerHTML = '<div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Evidenzia almeno 2 numeri</div>'; return; }
-      list.innerHTML = d.map(x => `<div class="distance-item"><span style="color:var(--brass-hi);font-weight:600;">${x.pair}</span><span style="color:#c9b98f;">Î” ${x.dist}</span><span style="color:#b3a37e;font-style:italic;">C ${x.comp}</span></div>`).join('');
+      list.innerHTML = d.map(x => `<div class="distance-item"><span style="color:var(--brass-hi);font-weight:600;">${x.pair}</span><span style="color:#c9b98f;">Δ ${x.dist}</span><span style="color:#b3a37e;font-style:italic;">C ${x.comp}</span></div>`).join('');
     }
 
     function detectBaseFigures(nums) {
@@ -2864,7 +2864,7 @@ Napoli 12 34 56 72 90"></textarea>
         const t1 = rot(n, 30), t2 = rot(n, 60);
         if (S.has(t1) && S.has(t2) && n < t1 && t1 < t2) figs.push({ type: 'Triangolo', numbers: [n, t1, t2], color: '#2e8b57' });
         const e1 = rot(n, 15), e2 = rot(n, 30);
-        if (S.has(e1) && S.has(e2) && n < e1 && e1 < e2) figs.push({ type: 'Terzina 60Â°', numbers: [n, e1, e2], color: '#d98e2b' });
+        if (S.has(e1) && S.has(e2) && n < e1 && e1 < e2) figs.push({ type: 'Terzina 60°', numbers: [n, e1, e2], color: '#d98e2b' });
         const q1 = rot(n, 22), q2 = rot(n, 45), q3 = rot(n, 67);
         if (S.has(q1) && S.has(q2) && S.has(q3) && n < q1 && q1 < q2)
           figs.push({ type: 'Quadrato', numbers: [n, q1, q2, q3], color: '#2980b9' });
@@ -2880,14 +2880,14 @@ Napoli 12 34 56 72 90"></textarea>
       const figs = [], S = new Set([...highlighted]);
       [...highlighted].forEach(n => {
         const o = rot(n, 45);
-        if (S.has(o) && n < o) figs.push({ type: 'Opposti 180Â°', numbers: [n, o], color: '#c0392b' });
+        if (S.has(o) && n < o) figs.push({ type: 'Opposti 180°', numbers: [n, o], color: '#c0392b' });
         const t1 = rot(n, 30), t2 = rot(n, 60);
-        if (S.has(t1) && S.has(t2) && n < t1 && t1 < t2) figs.push({ type: 'Triangolo 120Â°', numbers: [n, t1, t2], color: '#2e8b57' });
+        if (S.has(t1) && S.has(t2) && n < t1 && t1 < t2) figs.push({ type: 'Triangolo 120°', numbers: [n, t1, t2], color: '#2e8b57' });
         const e1 = rot(n, 15), e2 = rot(n, 30);
-        if (S.has(e1) && S.has(e2) && n < e1 && e1 < e2) figs.push({ type: 'Terzina 60Â°', numbers: [n, e1, e2], color: '#d98e2b' });
+        if (S.has(e1) && S.has(e2) && n < e1 && e1 < e2) figs.push({ type: 'Terzina 60°', numbers: [n, e1, e2], color: '#d98e2b' });
         const q1 = rot(n, 22), q2 = rot(n, 45), q3 = rot(n, 67);
         if (S.has(q1) && S.has(q2) && S.has(q3) && n < q1 && q1 < q2)
-          figs.push({ type: 'Quadrato 90Â°', numbers: [n, q1, q2, q3], color: '#2980b9' });
+          figs.push({ type: 'Quadrato 90°', numbers: [n, q1, q2, q3], color: '#2980b9' });
       });
       return figs;
     }
@@ -3017,7 +3017,7 @@ Napoli 12 34 56 72 90"></textarea>
       const lx = CX + dx / dist * 60, ly = CY + dy / dist * 60;
       addLabel(lx, ly, label, color);
       const ang = el('text', { x: CX, y: CY + 28, class: 'fig-angle-label', fill: color });
-      ang.textContent = '180Â°';
+      ang.textContent = '180°';
       overlayG.appendChild(ang);
     }
 
@@ -3078,7 +3078,7 @@ Napoli 12 34 56 72 90"></textarea>
 		  const d = distanzaCiclo(a.num, b.num);
 		  const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
 		  const dx = mx - CX, dy = my - CY, len = Math.hypot(dx, dy) || 1;
-		  addLabel(mx + dx / len * 16, my + dy / len * 16, 'Î”' + d, color);
+		  addLabel(mx + dx / len * 16, my + dy / len * 16, 'Δ' + d, color);
 		}
 	}
     
@@ -3099,7 +3099,7 @@ Napoli 12 34 56 72 90"></textarea>
 		  const d = distanzaCiclo(a.num, b.num);
 		  const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
 		  const dx = mx - CX, dy = my - CY, len = Math.hypot(dx, dy) || 1;
-		  addLabel(mx + dx / len * 16, my + dy / len * 16, 'Î”' + d, color);
+		  addLabel(mx + dx / len * 16, my + dy / len * 16, 'Δ' + d, color);
 		}
 	  }
 	}
@@ -3128,11 +3128,11 @@ Napoli 12 34 56 72 90"></textarea>
         if (pts.some(p => !p)) return;
         if (pts.length < 2) return;
         switch (f.type) {
-          case 'Opposti': drawFigOpposti(pts, f.color, 'Opposti 180Â°'); break;
-          case 'Triangolo': drawFigTriangolo(pts, f.color, 'Triangolo 120Â°'); break;
-          case 'Terzina 60Â°': drawFigTerzina(pts, f.color, 'Terzina 60Â°'); break;
-          case 'Quadrato': drawFigQuadrato(pts, f.color, 'Quadrato 90Â°'); break;
-          case 'Dinamica': drawFigDinamica(pts, f.color, `Figura Î”${f.dist} Ã—${f.count}`); break;
+          case 'Opposti': drawFigOpposti(pts, f.color, 'Opposti 180°'); break;
+          case 'Triangolo': drawFigTriangolo(pts, f.color, 'Triangolo 120°'); break;
+          case 'Terzina 60°': drawFigTerzina(pts, f.color, 'Terzina 60°'); break;
+          case 'Quadrato': drawFigQuadrato(pts, f.color, 'Quadrato 90°'); break;
+          case 'Dinamica': drawFigDinamica(pts, f.color, `Figura Δ${f.dist} ×${f.count}`); break;
           default: drawFigDefault(pts, f.color, f.type);
         }
       });
@@ -3179,7 +3179,7 @@ Napoli 12 34 56 72 90"></textarea>
     // ============================================================
     function runEngine() {
       const base = getBase();
-      if (base.length < 2) { showNotification('ï¸ Carica prima almeno 2 numeri'); return; }
+      if (base.length < 2) { showNotification('️ Carica prima almeno 2 numeri'); return; }
       ENGINE.base = base;
       let cands = computeCandidates(base);
       const firma = firmaGeometrica(base);
@@ -3200,9 +3200,9 @@ Napoli 12 34 56 72 90"></textarea>
               const existing = cands.find(c => c.n === n);
               if (existing) {
                 existing.score += 1.5 * sd.count;
-                if (!existing.motivi.includes(`sviluppo Î”${sd.d}`)) existing.motivi.push(`sviluppo Î”${sd.d}`);
+                if (!existing.motivi.includes(`sviluppo Δ${sd.d}`)) existing.motivi.push(`sviluppo Δ${sd.d}`);
               } else if (!base.includes(n)) {
-                cands.push({ n, score: 1.5 * sd.count, motivi: [`sviluppo Î”${sd.d} da ${v}`] });
+                cands.push({ n, score: 1.5 * sd.count, motivi: [`sviluppo Δ${sd.d} da ${v}`] });
               }
             });
           });
@@ -3216,7 +3216,7 @@ Napoli 12 34 56 72 90"></textarea>
       renderEnginePanel();
       drawFigureOverlay();
       if (heatOn) applyHeat();
-      showNotification(`âš¡ Firma: Î”${firma.map(f => f.d).join(', Î”')} Â· selezionata Î”${ENGINE.activeDist}`);
+      showNotification(`⚡ Firma: Δ${firma.map(f => f.d).join(', Δ')} · selezionata Δ${ENGINE.activeDist}`);
       renderNumeriPromettenti();
     }
 
@@ -3224,46 +3224,46 @@ Napoli 12 34 56 72 90"></textarea>
       const box = document.getElementById('engineResults');
       const c = ENGINE.candidates;
       if (!c.length) { box.innerHTML = ''; return; }
-      const pick = k => c.slice(0, k).map(x => x.n).join(' â€“ ');
+      const pick = k => c.slice(0, k).map(x => x.n).join(' – ');
       const counts = {};
       getVisibleFigures().forEach(f => counts[f.type] = (counts[f.type] || 0) + 1);
       const badges = Object.entries(counts).map(([t, k]) => {
         const col = (ENGINE.figures.find(f => f.type === t) || ENGINE.figDin.find(f => f.type === t) || { color: '#9b59b6' }).color;
-        return `<span class="fig-badge" style="border-color:${col};color:${col}">${k}Ã— ${t}</span>`;
+        return `<span class="fig-badge" style="border-color:${col};color:${col}">${k}× ${t}</span>`;
       }).join('');
       let firmaHtml = '';
       if (ENGINE.firma && ENGINE.firma.length) {
-        firmaHtml = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">Firma geometrica â€” <b>clicca una Î” per vedere SOLO quella figura</b> (riclic = nascondi):</div>`;
+        firmaHtml = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">Firma geometrica  <b>clicca una Δ per vedere SOLO quella figura</b> (riclic = nascondi):</div>`;
         firmaHtml += `<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px;">`;
         ENGINE.firma.slice(0, 8).forEach(f => {
           const active = ENGINE.activeDist === f.d;
-          firmaHtml += `<button class="fig-badge firma-badge" data-dist="${f.d}" style="border-color:${active ? '#e0b04a' : (f.count >= 2 ? '#9b59b6' : '#5a4630')};color:${active ? '#e0b04a' : (f.count >= 2 ? '#9b59b6' : '#b3a37e')};background:${active ? 'rgba(224,176,74,.18)' : 'transparent'};font-weight:${active ? '700' : '400'}">Î”${f.d} Ã—${f.count}</button>`;
+          firmaHtml += `<button class="fig-badge firma-badge" data-dist="${f.d}" style="border-color:${active ? '#e0b04a' : (f.count >= 2 ? '#9b59b6' : '#5a4630')};color:${active ? '#e0b04a' : (f.count >= 2 ? '#9b59b6' : '#b3a37e')};background:${active ? 'rgba(224,176,74,.18)' : 'transparent'};font-weight:${active ? '700' : '400'}">Δ${f.d} ×${f.count}</button>`;
         });
-        firmaHtml += `<button class="fig-badge firma-badge" id="firmaAll" style="border-color:${ENGINE.activeDist === 'all' ? '#e0b04a' : '#5a4630'};color:${ENGINE.activeDist === 'all' ? '#e0b04a' : '#b3a37e'}">ðŸ‘ Tutte</button>`;
+        firmaHtml += `<button class="fig-badge firma-badge" id="firmaAll" style="border-color:${ENGINE.activeDist === 'all' ? '#e0b04a' : '#5a4630'};color:${ENGINE.activeDist === 'all' ? '#e0b04a' : '#b3a37e'}">👁 Tutte</button>`;
         firmaHtml += `</div>`;
         if (typeof ENGINE.activeDist === 'number') {
           const sel = ENGINE.figDin.filter(f => f.dist === ENGINE.activeDist);
           if (sel.length) {
             const vert = [...new Set(sel.flatMap(f => f.numbers))].sort((a, b) => a - b);
             const dev = [...new Set(vert.flatMap(v => [fuori90(v + ENGINE.activeDist), fuori90(v + 90 - ENGINE.activeDist)]))].filter(n => !vert.includes(n)).sort((a, b) => a - b);
-            firmaHtml += `<div style="margin-top:6px;font-size:11px;color:#c9b98f;">Vertici Î”${ENGINE.activeDist}: <b style="color:#9b59b6">${vert.join(', ')}</b></div>`;
-            firmaHtml += `<div style="margin-top:3px;font-size:11px;color:#c9b98f;">Sviluppi (Î” e 90âˆ’Î”): <b style="color:#e0b04a">${dev.join(', ')}</b></div>`;
-            firmaHtml += `<div class="btn-row" style="margin-top:6px;"><button class="step" id="firmaHighlight">ðŸŽ¯ Evidenzia vertici + sviluppi</button></div>`;
+            firmaHtml += `<div style="margin-top:6px;font-size:11px;color:#c9b98f;">Vertici Δ${ENGINE.activeDist}: <b style="color:#9b59b6">${vert.join(', ')}</b></div>`;
+            firmaHtml += `<div style="margin-top:3px;font-size:11px;color:#c9b98f;">Sviluppi (Δ e 90−Δ): <b style="color:#e0b04a">${dev.join(', ')}</b></div>`;
+            firmaHtml += `<div class="btn-row" style="margin-top:6px;"><button class="step" id="firmaHighlight"> Evidenzia vertici + sviluppi</button></div>`;
           }
         }
       }
       box.innerHTML = firmaHtml + `
         <div style="margin-top:10px;">${badges || '<span style="font-size:12px;color:#8a7a5c">Nessuna figura</span>'}</div>
         <div class="pred-grid">
-          <div class="pred-box"><div class="lbl">Amata</div><div class="val">${c[0]?.n ?? 'â€”'}</div></div>
-          <div class="pred-box"><div class="lbl">Ambo</div><div class="val" style="font-size:16px;">${pick(2) || 'â€”'}</div></div>
-          <div class="pred-box"><div class="lbl">Terno</div><div class="val" style="font-size:15px;">${pick(3) || 'â€”'}</div></div>
-          <div class="pred-box"><div class="lbl">Cinquina</div><div class="val" style="font-size:13px;">${pick(5) || 'â€”'}</div></div>
+          <div class="pred-box"><div class="lbl">Amata</div><div class="val">${c[0]?.n ?? ''}</div></div>
+          <div class="pred-box"><div class="lbl">Ambo</div><div class="val" style="font-size:16px;">${pick(2) || ''}</div></div>
+          <div class="pred-box"><div class="lbl">Terno</div><div class="val" style="font-size:15px;">${pick(3) || ''}</div></div>
+          <div class="pred-box"><div class="lbl">Cinquina</div><div class="val" style="font-size:13px;">${pick(5) || ''}</div></div>
         </div>
         <div class="cand-list">${c.slice(0, 8).map(x => `
           <div class="cand-item" data-n="${x.n}">
             <span class="cn">${x.n}</span>
-            <span class="cm">${x.motivi.slice(0, 2).join(' â€¢ ')}</span>
+            <span class="cm">${x.motivi.slice(0, 2).join(' • ')}</span>
             <span class="cs">${x.score.toFixed(1)}</span>
           </div>`).join('')}
         </div>`;
@@ -3288,7 +3288,7 @@ Napoli 12 34 56 72 90"></textarea>
         const dev = [...new Set(vert.flatMap(v => [fuori90(v + ENGINE.activeDist), fuori90(v + 90 - ENGINE.activeDist)]))].filter(n => !vert.includes(n));
         [...vert, ...dev].forEach(n => highlighted.add(n));
         renderChips(); renderAll(); aggiornaCadenzeDecine();
-        showNotification(`ðŸŽ¯ ${vert.length + dev.length} numeri evidenziati`);
+        showNotification(` ${vert.length + dev.length} numeri evidenziati`);
       });
       box.querySelectorAll('.cand-item').forEach(it => {
         it.addEventListener('click', () => { highlighted.add(parseInt(it.dataset.n)); renderChips(); renderAll(); aggiornaCadenzeDecine(); });
@@ -3300,7 +3300,7 @@ Napoli 12 34 56 72 90"></textarea>
       if (heatOn && ENGINE.candidates.length === 0) runEngine();
       heatMap = new Map(ENGINE.candidates.slice(0, 30).map((c, i) => [c.n, 1 - i / 30]));
       applyHeat();
-      showNotification(heatOn ? 'ðŸ”¥ Mappa calore attiva' : 'Mappa calore spenta');
+      showNotification(heatOn ? '🔥 Mappa calore attiva' : 'Mappa calore spenta');
     }
 
     function applyHeat() {
@@ -3310,10 +3310,10 @@ Napoli 12 34 56 72 90"></textarea>
 		  const isMarked = highlighted.has(n) || drawHighlighted.has(n);
 		  if (heatOn && heatMap.has(n) && !isMarked) {
 			const k = heatMap.get(n);
-			// v2.10.2: rampa opaca ocra scuro â†’ rosso granata (sempre leggibile sulla carta)
-			const r = 150 + Math.round(10 * k);   // 150 â†’ 160
-			const g = Math.round(100 - 78 * k);   // 100 â†’ 22
-			const b = Math.round(8 + 18 * k);     //   8 â†’ 26
+			// v2.10.2: rampa opaca ocra scuro → rosso granata (sempre leggibile sulla carta)
+			const r = 150 + Math.round(10 * k);   // 150 → 160
+			const g = Math.round(100 - 78 * k);   // 100 → 22
+			const b = Math.round(8 + 18 * k);     //   8 → 26
 			t.style.fill = `rgb(${r},${g},${b})`;
 			t.style.fontSize = (rg.ring.fs + 2 * k) + 'px';
 			t.style.fontWeight = '700';
@@ -3326,16 +3326,16 @@ Napoli 12 34 56 72 90"></textarea>
 
     function startTour() {
       const vis = getVisibleFigures();
-      if (!vis.length) { showNotification('âš ï¸ Prima premi âš¡'); return; }
+      if (!vis.length) { showNotification('⚠️ Prima premi ⚡'); return; }
       stopTour();
       let i = 0;
       const out = document.getElementById('alignmentResult');
       const step = () => {
         const f = vis[i];
-        out.innerHTML = `<span><strong>${i + 1}/${vis.length}:</strong> ${f.type === 'Dinamica' ? `Figura Î”${f.dist}` : f.type} â†’ ${f.numbers.join(' â€“ ')}</span>`;
+        out.innerHTML = `<span><strong>${i + 1}/${vis.length}:</strong> ${f.type === 'Dinamica' ? `Figura Δ${f.dist}` : f.type} → ${f.numbers.join(' – ')}</span>`;
         tourTimer = setTimeout(() => {
           i++;
-          if (i >= vis.length) { stopTour(); showNotification('ðŸŽ¬ Tour completato'); }
+          if (i >= vis.length) { stopTour(); showNotification('🎬 Tour completato'); }
           else step();
         }, 2600);
       };
@@ -3353,8 +3353,8 @@ Napoli 12 34 56 72 90"></textarea>
     }
 
     // ============================================================
-    // v2.8/v2.9: LOGICA 38 â€” COLONNE DI CADENZA
-    // Rc = ritardo corrente Â· Rx = MASSIMO ritardo storico
+    // v2.8/v2.9: LOGICA 38  COLONNE DI CADENZA
+    // Rc = ritardo corrente · Rx = MASSIMO ritardo storico
     // ============================================================
     let L38 = { ruota: null, num: null, cadenza: null, colonne: [], excl: [2, 2, 2], ambi: [], esclusi: [], prevHl: [], shrinkFinal: [] };
 
@@ -3407,7 +3407,7 @@ Napoli 12 34 56 72 90"></textarea>
 		const d=sub[i]; let c=0;
 		[d.n1,d.n2,d.n3,d.n4,d.n5].forEach(n=>{ if(nums.includes(n)) c++; });
 		if(c>=2){
-		if(lastHit>=0){ const g=i-lastHit-1; if(g>maxGap) maxGap=g; }  // -1: il concorso i Ã¨ quello di uscita
+		if(lastHit>=0){ const g=i-lastHit-1; if(g>maxGap) maxGap=g; }  // -1: il concorso i è quello di uscita
 		lastHit=i; hits++;
 		}
 	  }
@@ -3431,7 +3431,7 @@ Napoli 12 34 56 72 90"></textarea>
     function runLogica38() {
       const ruota = document.getElementById('l38Ruota').value;
       const num = parseInt(document.getElementById('l38Num').value);
-      if (!num || num < 1 || num > 90) { showNotification('âš ï¸ Inserisci il primo estratto (1-90)'); return; }
+      if (!num || num < 1 || num > 90) { showNotification('⚠️ Inserisci il primo estratto (1-90)'); return; }
       const mode = document.getElementById('l38Mode').value;
       let cad;
       if (mode === 'radice') cad = radice(num) % 10;
@@ -3442,7 +3442,7 @@ Napoli 12 34 56 72 90"></textarea>
       L38.excl = [2, 2, 2];
       renderL38Cols();
       renderL38Tracker();
-      showNotification(`ðŸ§­ ${CODICE_TO_NOME[ruota]} n.${num} â†’ cadenza ${cad} Â· 3 colonne sul cerchio`);
+      showNotification(` ${CODICE_TO_NOME[ruota]} n.${num} → cadenza ${cad} · 3 colonne sul cerchio`);
     }
 
     function renderL38Cols() {
@@ -3450,7 +3450,7 @@ Napoli 12 34 56 72 90"></textarea>
       if (!L38.colonne.length) { box.innerHTML = ''; return; }
       L38.prevHl.forEach(n => highlighted.delete(n));
       L38.ambi = []; L38.esclusi = [];
-      let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">Cadenza ${L38.cadenza} Â· 3 colonne (ambo = interno+medio, escluso = esterno,  scambia):</div>`;
+      let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">Cadenza ${L38.cadenza} · 3 colonne (ambo = interno+medio, escluso = esterno,  scambia):</div>`;
       L38.colonne.forEach((col, ci) => {
         const ex = L38.excl[ci];
         const rings = [0, 1, 2].filter(r => r !== ex);
@@ -3459,9 +3459,9 @@ Napoli 12 34 56 72 90"></textarea>
         L38.ambi.push(ambo); L38.esclusi.push(escl);
         h += `<div class="l38-col">`;
         [0, 1, 2].forEach(r => { const n = col['r' + r]; h += `<div class="l38-cell ${r === ex ? 'escl' : 'ambo'}">${n}</div>`; });
-        h += `<button class="l38-swap" data-col="${ci}">â‡„</button></div>`;
+        h += `<button class="l38-swap" data-col="${ci}">⇄</button></div>`;
       });
-      h += `<div style="margin-top:4px;font-size:11px;color:#c9b98f;">Ambi secchi: <b style="color:var(--gold-fill)">${L38.ambi.map(a => a.join('-')).join(' Â· ')}</b> Â· Esclusi: <span style="color:#e0a0a0">${L38.esclusi.join(', ')}</span></div>`;
+      h += `<div style="margin-top:4px;font-size:11px;color:#c9b98f;">Ambi secchi: <b style="color:var(--gold-fill)">${L38.ambi.map(a => a.join('-')).join(' · ')}</b> · Esclusi: <span style="color:#e0a0a0">${L38.esclusi.join(', ')}</span></div>`;
       box.innerHTML = h;
       L38.prevHl = L38.ambi.flat();
       L38.prevHl.forEach(n => highlighted.add(n));
@@ -3474,13 +3474,13 @@ Napoli 12 34 56 72 90"></textarea>
     }
 
     function runShrink38(){
-	  if(L38.cadenza==null){ showNotification('âš ï¸ Prima imposta il cerchio (ðŸ§­)'); return; }
-	  if(!archivio || !archivio.righe.length){ showNotification('âš ï¸ Carica l\'archivio'); return; }
+	  if(L38.cadenza==null){ showNotification('⚠️ Prima imposta il cerchio ()'); return; }
+	  if(!archivio || !archivio.righe.length){ showNotification('⚠️ Carica l\'archivio'); return; }
 	  const sub = subRuotaL38();
-	  if(sub.length < 50){ showNotification('âš ï¸ Servono almeno 50 estrazioni fino alla data scelta'); return; }
+	  if(sub.length < 50){ showNotification('⚠️ Servono almeno 50 estrazioni fino alla data scelta'); return; }
 	  let combo = novinaCadenza(L38.cadenza);
 	  const ds = document.getElementById('l38Date').value;
-	  let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">ðŸ“‰ Shrink lunghetta cad.${L38.cadenza} (${L38.ruota}) â€” classi 8â†’2 Â· al ${ds||'ultima data'}:</div>`;
+	  let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">📉 Shrink lunghetta cad.${L38.cadenza} (${L38.ruota})  classi 8→2 · al ${ds||'ultima data'}:</div>`;
 	  for(let cls=8; cls>=2; cls--){
 		const opts = [];
 		for(let i=0;i<combo.length;i++){
@@ -3492,14 +3492,14 @@ Napoli 12 34 56 72 90"></textarea>
 		opts.sort((a,b)=>((b.rc>=b.rx)?1:0)-((a.rc>=a.rx)?1:0)||b.rc-a.rc);
 		h += `<div class="shrink-line"><b>--- SVILUPPO CLASSE ${cls} ---</b></div>`;
 		opts.slice(0,2).forEach((o,pi)=>{
-		  h += `<div class="shrink-line">Pos.${pi+1} [Rc ${o.rc} / Rx ${o.rx}] ${o.rc>=o.rx?'<span class="ok">â‰¥</span>':'<span class="no">&lt;</span>'} â†’ Escluso nÂ° <b>${o.excl}</b> â†’ ${o.rest.join('.')}</div>`;
+		  h += `<div class="shrink-line">Pos.${pi+1} [Rc ${o.rc} / Rx ${o.rx}] ${o.rc>=o.rx?'<span class="ok">≥</span>':'<span class="no">&lt;</span>'} → Escluso n° <b>${o.excl}</b> → ${o.rest.join('.')}</div>`;
 		});
 		combo = opts[0].rest;
 	  }
 	  L38.shrinkFinal = combo;
 	  h += `<div style="margin-top:4px;font-size:11px;color:#c9b98f;">Esito shrink: <b style="color:var(--gold-fill)">${combo.join(' - ')}</b></div>`;
 	  document.getElementById('l38Results').innerHTML = h;
-	  showNotification(`ðŸ“‰ Shrink completato: ${combo.join('-')}`);
+	  showNotification(`📉 Shrink completato: ${combo.join('-')}`);
 	}
 
     function partitions280(nums) {
@@ -3517,10 +3517,10 @@ Napoli 12 34 56 72 90"></textarea>
     }
 
     function runTerzine280() {
-      if (L38.cadenza == null) { showNotification('âš ï¸ Prima imposta il cerchio (ðŸ§­)'); return; }
-      if (!archivio || !archivio.righe.length) { showNotification('ï¸ Carica l\'archivio'); return; }
+      if (L38.cadenza == null) { showNotification('⚠️ Prima imposta il cerchio ()'); return; }
+      if (!archivio || !archivio.righe.length) { showNotification('️ Carica l\'archivio'); return; }
       const sub = subRuotaL38();
-      if (sub.length < 50) { showNotification('âš ï¸ Servono almeno 50 estrazioni fino alla data scelta'); return; }
+      if (sub.length < 50) { showNotification('⚠️ Servono almeno 50 estrazioni fino alla data scelta'); return; }
       const parts = partitions280(novinaCadenza(L38.cadenza));
       const rows = parts.map(g=>{
 	    let rcSum = 0, rxSum = 0;
@@ -3536,16 +3536,16 @@ Napoli 12 34 56 72 90"></textarea>
 	  });
       const filt = rows.filter(r => r.rc >= r.rx).sort((a, b) => b.rc - a.rc);
       const maxRc = filt.length ? filt[0].rc : 0;
-      let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">ðŸ§© Gruppi di 3 terzine cad.${L38.cadenza} (${L38.ruota}) Â· sviluppate ${rows.length} Â· filtrate Rcâ‰¥Rx ${filt.length} Â· ritardo max ${maxRc}</div>`;
+      let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;">Gruppi di 3 terzine cad.${L38.cadenza} (${L38.ruota}) · sviluppate ${rows.length} · filtrate Rc≥Rx ${filt.length} · ritardo max ${maxRc}</div>`;
       filt.slice(0, 16).forEach(r => {
-        h += `<div class="shrink-line">${r.g.map(t => [...t].sort((a, b) => a - b).join('.')).join('  ')} Â· Rc ${r.rc} Â· Rx ${r.rx}${r.sim ? ' Â· <span class="ok">Simmetriche</span>' : ''} Â· ${r.seq.join('.')}</div>`;
+        h += `<div class="shrink-line">${r.g.map(t => [...t].sort((a, b) => a - b).join('.')).join('  ')} · Rc ${r.rc} · Rx ${r.rx}${r.sim ? ' · <span class="ok">Simmetriche</span>' : ''} · ${r.seq.join('.')}</div>`;
       });
       document.getElementById('l38Results').innerHTML = h;
-      showNotification(`ðŸ§© 280 terzine: ${filt.length} filtrate Rcâ‰¥Rx Â· max Rc ${maxRc}`);
+      showNotification(`280 terzine: ${filt.length} filtrate Rc≥Rx · max Rc ${maxRc}`);
     }
 
     function saveL38() {
-      if (!L38.ambi.length) { showNotification('âš ï¸ Prima imposta il cerchio (ðŸ§­)'); return; }
+      if (!L38.ambi.length) { showNotification('⚠️ Prima imposta il cerchio ()'); return; }
       const list = JSON.parse(localStorage.getItem('l38preds') || '[]');
       list.push({ ruota: L38.ruota, num: L38.num, cad: L38.cadenza, ambi: L38.ambi, esclusi: L38.esclusi, shrink: L38.shrinkFinal || [], salvataIl: new Date().toISOString() });
       localStorage.setItem('l38preds', JSON.stringify(list));
@@ -3554,12 +3554,12 @@ Napoli 12 34 56 72 90"></textarea>
     }
     
 	// ============================================================
-	// v2.10.1: RICERCA AUTOMATICA PER DOPPIE DISTANZE â€” LOGICA COMPLETA CORRETTA
-	// Le uniche terzine con una distanza ripetuta 2 volte (doppia distanza Î”)
-	// sono le terzine simmetriche/in progressione {x, x+Î”, x+2Î”} (mod 90).
+	// v2.10.1: RICERCA AUTOMATICA PER DOPPIE DISTANZE  LOGICA COMPLETA CORRETTA
+	// Le uniche terzine con una distanza ripetuta 2 volte (doppia distanza Δ)
+	// sono le terzine simmetriche/in progressione {x, x+Δ, x+2Δ} (mod 90).
 	// Rc = ritardo corrente ambo nella terzina
-	// Rx att. = attesa empirica (media gap) Â· Rx max = massimo ritardo storico CHIUSO (corretto -1)
-	// Filtro gruppo: Rc â‰¥ Rx(attesa). Monitor multi-ruota + inserimento nel Cerchio.
+	// Rx att. = attesa empirica (media gap) · Rx max = massimo ritardo storico CHIUSO (corretto -1)
+	// Filtro gruppo: Rc ≥ Rx(attesa). Monitor multi-ruota + inserimento nel Cerchio.
 	// ============================================================
 	let DIST_FOUND = [];
 	let DIST_RUOTE_MONITOR = [];
@@ -3606,13 +3606,13 @@ Napoli 12 34 56 72 90"></textarea>
 	  return { rc, rxMax, rxAtt: Math.round(rxAtt) };
 	}
 
-	// Genera le terzine simmetriche con doppia distanza Î”: {x, x+Î”, x+2Î”}
+	// Genera le terzine simmetriche con doppia distanza Δ: {x, x+Δ, x+2Δ}
 	function generaTerzineDoppieDistanze(doppie) {
 	  const set = new Map();
 	  doppie.forEach(dd => {
 		for (let x = 1; x <= 90; x++) {
 		  const t = [fuori90(x), fuori90(x + dd.d), fuori90(x + 2 * dd.d)].sort((a, b) => a - b);
-		  if (new Set(t).size !== 3) continue;   // esclude Î”=45 (numeri coincidenti)
+		  if (new Set(t).size !== 3) continue;   // esclude Δ=45 (numeri coincidenti)
 		  const key = t.join('-');
 		  if (!set.has(key)) set.set(key, { t, d: dd.d });
 		}
@@ -3621,31 +3621,31 @@ Napoli 12 34 56 72 90"></textarea>
 	}
 
 	function runRicercaDistanze() {
-	  if (!archivio || !archivio.righe.length) { showNotification('âš ï¸ Carica prima l\'archivio'); return; }
+	  if (!archivio || !archivio.righe.length) { showNotification('⚠️ Carica prima l\'archivio'); return; }
 	  const ruotaSorgente = document.getElementById('distRuotaSorgente').value;
 	  const selTarget = document.getElementById('distRuotaTarget').value;
 	  const inputNum = document.getElementById('distNumeriSorgente').value.trim();
-	  if (!inputNum) { showNotification('âš ï¸ Inserisci i numeri dell\'estrazione sorgente'); return; }
+	  if (!inputNum) { showNotification('⚠️ Inserisci i numeri dell\'estrazione sorgente'); return; }
 	  const numeriSorgente = [...new Set(inputNum.split(/[\s,;]+/).map(Number).filter(n => n >= 1 && n <= 90))];
-	  if (numeriSorgente.length < 3) { showNotification('âš ï¸ Servono almeno 3 numeri sorgente'); return; }
+	  if (numeriSorgente.length < 3) { showNotification('⚠️ Servono almeno 3 numeri sorgente'); return; }
 
 	  // 1) Distanze e doppie distanze dell'estrazione sorgente
 	  const distanze = calcolaDistanzeCiclometriche(numeriSorgente);
 	  const doppie = trovaDoppieDistanze(distanze);
-	  let htmlDist = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">ðŸ“ Distanze ciclometriche di ${numeriSorgente.join('-')} su ${CODICE_TO_NOME[ruotaSorgente]}:</div><div class="dist-distanze">`;
+	  let htmlDist = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">📐 Distanze ciclometriche di ${numeriSorgente.join('-')} su ${CODICE_TO_NOME[ruotaSorgente]}:</div><div class="dist-distanze">`;
 	  distanze.forEach(d => {
 		const dd = doppie.find(x => x.d === d.d);
-		htmlDist += `<span class="dist-tag ${dd ? 'double' : ''}" title="${d.n1}-${d.n2}">Î”${d.d}${dd ? ' Ã—' + dd.count : ''}</span>`;
+		htmlDist += `<span class="dist-tag ${dd ? 'double' : ''}" title="${d.n1}-${d.n2}">Δ${d.d}${dd ? ' ×' + dd.count : ''}</span>`;
 	  });
 	  htmlDist += `</div>`;
 	  if (!doppie.length) {
-		htmlDist += `<div style="color:#e0a0a0;font-size:12px;margin-top:6px;">âš ï¸ Nessuna distanza si ripete: la ricerca richiede almeno una doppia distanza.</div></div>`;
+		htmlDist += `<div style="color:#e0a0a0;font-size:12px;margin-top:6px;">⚠️ Nessuna distanza si ripete: la ricerca richiede almeno una doppia distanza.</div></div>`;
 		document.getElementById('distDistanze').innerHTML = htmlDist;
 		document.getElementById('distResults').innerHTML = '';
 		DIST_FOUND = [];
 		return;
 	  }
-	  htmlDist += `<div style="font-size:11px;color:#e0b04a;margin-top:6px;">ðŸŽ¯ Doppie distanze target: <b>${doppie.map(d => 'Î”' + d.d).join(', ')}</b> â†’ terzine simmetriche {x, x+Î”, x+2Î”}</div></div>`;
+	  htmlDist += `<div style="font-size:11px;color:#e0b04a;margin-top:6px;"> Doppie distanze target: <b>${doppie.map(d => 'Δ' + d.d).join(', ')}</b> → terzine simmetriche {x, x+Δ, x+2Δ}</div></div>`;
 	  document.getElementById('distDistanze').innerHTML = htmlDist;
 
 	  // 2) Ricerca sulle ruote selezionate (fissa o tutte)
@@ -3665,12 +3665,12 @@ Napoli 12 34 56 72 90"></textarea>
 	  DIST_FOUND = risultati.slice(0, 60);
 
 	  // 3) Render risultati + pulsanti workflow
-	  let html = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">ðŸ§© Terzine simmetriche con doppie distanze ${doppie.map(d => 'Î”' + d.d).join(', ')} Â· candidate ${candidati.length} Â· filtro Rc â‰¥ Rx(attesa) Â· trovate <b style="color:#4fae7a;">${risultati.length}</b>${selTarget === 'all' ? ' su tutte le ruote' : ' su ' + CODICE_TO_NOME[selTarget]}</div>`;
-	  if (!risultati.length) html += `<div class="shrink-line">Nessuna terzina soddisfa Rc â‰¥ Rx in questo momento</div>`;
+	  let html = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">Terzine simmetriche con doppie distanze ${doppie.map(d => 'Δ' + d.d).join(', ')} · candidate ${candidati.length} · filtro Rc ≥ Rx(attesa) · trovate <b style="color:#4fae7a;">${risultati.length}</b>${selTarget === 'all' ? ' su tutte le ruote' : ' su ' + CODICE_TO_NOME[selTarget]}</div>`;
+	  if (!risultati.length) html += `<div class="shrink-line">Nessuna terzina soddisfa Rc ≥ Rx in questo momento</div>`;
 	  else risultati.slice(0, 30).forEach((r, i) => {
-		html += `<div class="shrink-line" style="cursor:pointer;" data-tidx="${i}" title="Clicca per evidenziare sul Cerchio"><b style="color:var(--gold-fill);">${r.t.join(' Â· ')}</b> <span style="color:#7fd4d4;">[${r.ruota}]</span> Î”${r.d} Â· Rc <b>${r.rc}</b> / Rx att. <b>${r.rxAtt}</b> (max ${r.rxMax}) Â· <span class="ok">âœ“</span> ${r.rapp.toFixed(2)}</div>`;
+		html += `<div class="shrink-line" style="cursor:pointer;" data-tidx="${i}" title="Clicca per evidenziare sul Cerchio"><b style="color:var(--gold-fill);">${r.t.join(' · ')}</b> <span style="color:#7fd4d4;">[${r.ruota}]</span> Δ${r.d} · Rc <b>${r.rc}</b> / Rx att. <b>${r.rxAtt}</b> (max ${r.rxMax}) · <span class="ok"></span> ${r.rapp.toFixed(2)}</div>`;
 	  });
-	  html += `<div class="btn-row" style="margin-top:8px;"><button class="step" id="distToWheel">ðŸŽ¯ Inserisci nel Cerchio</button><button class="step" id="distSviluppa">ðŸ§© Sviluppa a gruppi di terzine + monitor Rcâ‰¥Rx</button></div></div>`;
+	  html += `<div class="btn-row" style="margin-top:8px;"><button class="step" id="distToWheel"> Inserisci nel Cerchio</button><button class="step" id="distSviluppa">Sviluppa a gruppi di terzine + monitor Rc≥Rx</button></div></div>`;
 	  document.getElementById('distResults').innerHTML = html;
 
 	  document.querySelectorAll('#distResults .shrink-line[data-tidx]').forEach(elx => {
@@ -3679,41 +3679,41 @@ Napoli 12 34 56 72 90"></textarea>
 		  if (!r) return;
 		  r.t.forEach(n => highlighted.add(n));
 		  renderChips(); renderAll(); aggiornaCadenzeDecine();
-		  showNotification(`ðŸŽ¯ Terzina ${r.t.join('-')} evidenziata sul Cerchio`);
+		  showNotification(` Terzina ${r.t.join('-')} evidenziata sul Cerchio`);
 		});
 	  });
 	  const b1 = document.getElementById('distToWheel');
 	  if (b1) b1.addEventListener('click', () => {
 		const uni = [...new Set(DIST_FOUND.slice(0, 12).flatMap(r => r.t))];
-		if (!uni.length) { showNotification('âš ï¸ Nessun risultato da inserire'); return; }
+		if (!uni.length) { showNotification('⚠️ Nessun risultato da inserire'); return; }
 		uni.forEach(n => highlighted.add(n));
 		renderChips(); renderAll(); aggiornaCadenzeDecine();
-		showNotification(`ðŸŽ¯ ${uni.length} numeri inseriti nel Cerchio`);
+		showNotification(` ${uni.length} numeri inseriti nel Cerchio`);
 	  });
 	  const b2 = document.getElementById('distSviluppa');
 	  if (b2) b2.addEventListener('click', sviluppaGruppiTerzineMonitor);
-	  showNotification(`ðŸ” ${risultati.length} terzine con Rc â‰¥ Rx trovate`);
+	  showNotification(`🔍 ${risultati.length} terzine con Rc ≥ Rx trovate`);
 	}
 
-	// Sviluppo dei numeri trovati a gruppi di terzine + monitor Rc â‰¥ Rx per ruota
+	// Sviluppo dei numeri trovati a gruppi di terzine + monitor Rc ≥ Rx per ruota
 	function sviluppaGruppiTerzineMonitor() {
-	  if (!DIST_FOUND.length) { showNotification('âš ï¸ Prima esegui una ricerca con risultati'); return; }
+	  if (!DIST_FOUND.length) { showNotification('⚠️ Prima esegui una ricerca con risultati'); return; }
 	  const ruote = DIST_RUOTE_MONITOR.length ? DIST_RUOTE_MONITOR : [document.getElementById('distRuotaTarget').value];
 	  const uniSet = new Set();
 	  for (const r of DIST_FOUND) {
 		const nuovi = r.t.filter(n => !uniSet.has(n));
-		if (uniSet.size + nuovi.length > 12) continue;   // max 12 numeri â†’ max 220 terzine
+		if (uniSet.size + nuovi.length > 12) continue;   // max 12 numeri → max 220 terzine
 		nuovi.forEach(n => uniSet.add(n));
 	  }
 	  const uni = [...uniSet].sort((a, b) => a - b);
-	  if (uni.length < 3) { showNotification('âš ï¸ Servono almeno 3 numeri trovati'); return; }
+	  if (uni.length < 3) { showNotification('⚠️ Servono almeno 3 numeri trovati'); return; }
 	  const terzine = [];
 	  for (let i = 0; i < uni.length; i++)
 		for (let j = i + 1; j < uni.length; j++)
 		  for (let k = j + 1; k < uni.length; k++)
 			terzine.push([uni[i], uni[j], uni[k]]);
 
-	  let html = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">ðŸ§© Sviluppo a gruppi di terzine dai ${uni.length} numeri trovati (${uni.join(', ')}) Â· ${terzine.length} terzine Â· monitor Rc â‰¥ Rx(attesa) per ruota</div>`;
+	  let html = `<div class="dist-result"><div style="font-size:11px;color:#c9b98f;margin-bottom:6px;">Sviluppo a gruppi di terzine dai ${uni.length} numeri trovati (${uni.join(', ')}) · ${terzine.length} terzine · monitor Rc ≥ Rx(attesa) per ruota</div>`;
 	  let tot = 0;
 	  ruote.forEach(rw => {
 		const sub = subRuota(rw);
@@ -3725,10 +3725,10 @@ Napoli 12 34 56 72 90"></textarea>
 		});
 		tot += ok.length;
 		ok.sort((a, b) => b.rc - a.rc);
-		html += `<div style="margin:8px 0 3px;color:#7fd4d4;font-weight:600;font-size:11px;">${CODICE_TO_NOME[rw]} (${rw}) â€” ${ok.length} terzine Rc â‰¥ Rx</div>`;
-		if (!ok.length) html += `<div class="shrink-line">â€” nessuna â€”</div>`;
+		html += `<div style="margin:8px 0 3px;color:#7fd4d4;font-weight:600;font-size:11px;">${CODICE_TO_NOME[rw]} (${rw})  ${ok.length} terzine Rc <> Rx</div>`;
+		if (!ok.length) html += `<div class="shrink-line"> nessuna </div>`;
 		ok.slice(0, 10).forEach(o => {
-		  html += `<div class="shrink-line" style="cursor:pointer;" data-mon="${o.t.join(',')}" title="Clicca per evidenziare"><b style="color:var(--gold-fill);">${o.t.join(' Â· ')}</b> Â· Rc <b>${o.rc}</b> / Rx att. <b>${o.rxAtt}</b> (max ${o.rxMax})</div>`;
+		  html += `<div class="shrink-line" style="cursor:pointer;" data-mon="${o.t.join(',')}" title="Clicca per evidenziare"><b style="color:var(--gold-fill);">${o.t.join(' · ')}</b> · Rc <b>${o.rc}</b> / Rx att. <b>${o.rxAtt}</b> (max ${o.rxMax})</div>`;
 		});
 	  });
 	  html += `<div style="font-size:11px;color:#c9b98f;margin-top:6px;">Totale terzine monitorate: <b>${tot}</b></div></div>`;
@@ -3737,16 +3737,16 @@ Napoli 12 34 56 72 90"></textarea>
 		elx.addEventListener('click', () => {
 		  elx.dataset.mon.split(',').map(Number).forEach(n => highlighted.add(n));
 		  renderChips(); renderAll(); aggiornaCadenzeDecine();
-		  showNotification('ðŸŽ¯ Terzina evidenziata sul Cerchio');
+		  showNotification(' Terzina evidenziata sul Cerchio');
 		});
 	  });
-	  showNotification(`ðŸ§© Monitor avviato su ${ruote.length} ruota/e`);
+	  showNotification(`Monitor avviato su ${ruote.length} ruota/e`);
 	}
 
 	function popolaDistRuote() {
 	  const opts = Object.entries(RUOTE_NOME).map(([k, v]) => `<option value="${k}">${k} - ${v}</option>`).join('');
 	  document.getElementById('distRuotaSorgente').innerHTML = opts;
-	  document.getElementById('distRuotaTarget').innerHTML = '<option value="all">ðŸŒ Tutte le ruote</option>' + opts;
+	  document.getElementById('distRuotaTarget').innerHTML = '<option value="all"> Tutte le ruote</option>' + opts;
 	}
      
     function renderL38Tracker() {
@@ -3756,8 +3756,8 @@ Napoli 12 34 56 72 90"></textarea>
       const mine = list.map((p, i) => ({ ...p, _i: i })).filter(p => p.ruota === ruota);
       if (!mine.length) { box.innerHTML = ''; return; }
       let h = `<div style="margin-top:8px;font-size:11px;color:#c9b98f;display:flex;justify-content:space-between;align-items:center;">
-        <span>ðŸ“Œ Previsioni ${CODICE_TO_NOME[ruota]} (verifica ultime 9):</span>
-        <button class="step danger" id="l38ClearWheel" style="flex:0 0 auto;padding:3px 8px;font-size:10px;">ï¸ Tutte</button>
+        <span>📌 Previsioni ${CODICE_TO_NOME[ruota]} (verifica ultime 9):</span>
+        <button class="step danger" id="l38ClearWheel" style="flex:0 0 auto;padding:3px 8px;font-size:10px;">️ Tutte</button>
       </div>`;
       mine.forEach(p => {
         let hits = 0, played = 0;
@@ -3771,8 +3771,8 @@ Napoli 12 34 56 72 90"></textarea>
           });
         }
         h += `<div class="shrink-line" style="display:flex;align-items:center;gap:6px;">
-          <span style="flex:1;">n.${p.num} cad.${p.cad} Â· ${p.ambi.map(a => a.join('-')).join(', ')} Â· hit <b class="${hits ? 'ok' : ''}">${hits}</b>/${played}</span>
-          <button class="step danger l38-del" data-idx="${p._i}" style="flex:0 0 auto;padding:2px 7px;font-size:10px;">âœ•</button>
+          <span style="flex:1;">n.${p.num} cad.${p.cad} · ${p.ambi.map(a => a.join('-')).join(', ')} · hit <b class="${hits ? 'ok' : ''}">${hits}</b>/${played}</span>
+          <button class="step danger l38-del" data-idx="${p._i}" style="flex:0 0 auto;padding:2px 7px;font-size:10px;">✕</button>
         </div>`;
       });
       box.innerHTML = h;
@@ -3781,7 +3781,7 @@ Napoli 12 34 56 72 90"></textarea>
         lst.splice(+b.dataset.idx, 1);
         localStorage.setItem('l38preds', JSON.stringify(lst));
         renderL38Tracker();
-        showNotification('ðŸ—‘ï¸ Previsione eliminata');
+        showNotification('🗑️ Previsione eliminata');
       }));
       const cw = box.querySelector('#l38ClearWheel');
       if (cw) cw.addEventListener('click', () => {
@@ -3789,7 +3789,7 @@ Napoli 12 34 56 72 90"></textarea>
         const lst = JSON.parse(localStorage.getItem('l38preds') || '[]').filter(p => p.ruota !== ruota);
         localStorage.setItem('l38preds', JSON.stringify(lst));
         renderL38Tracker();
-        showNotification(`ï¸ Previsioni ${CODICE_TO_NOME[ruota]} cancellate`);
+        showNotification(`️ Previsioni ${CODICE_TO_NOME[ruota]} cancellate`);
       });
     }
    
@@ -3812,7 +3812,7 @@ Napoli 12 34 56 72 90"></textarea>
 
 	function verificaEstrazioniPeriodo(){
 	  if(!archivio || !archivio.righe.length){
-		showNotification('âš ï¸ Carica l\'archivio');
+		showNotification('⚠️ Carica l\'archivio');
 		return;
 	  }
 	  const ruota = document.getElementById('l38Ruota').value;
@@ -3820,7 +3820,7 @@ Napoli 12 34 56 72 90"></textarea>
 	  const al = document.getElementById('verDataAl').value;
 	  
 	  if(!dal || !al){
-		showNotification('ï¸ Inserisci entrambe le date');
+		showNotification('️ Inserisci entrambe le date');
 		return;
 	  }
 	  
@@ -3828,7 +3828,7 @@ Napoli 12 34 56 72 90"></textarea>
 	  const dAl = parseData(al);
 	  
 	  if(dDal > dAl){
-		showNotification('ï¸ La data "Dal" deve essere precedente a "Al"');
+		showNotification('️ La data "Dal" deve essere precedente a "Al"');
 		return;
 	  }
 	  
@@ -3839,24 +3839,24 @@ Napoli 12 34 56 72 90"></textarea>
 	  }).sort((a,b)=>parseData(a.data)-parseData(b.data));
 	  
 	  const conteggio = sub.length;
-	  const prima = sub.length ? sub[0].data : 'â€”';
-	  const ultima = sub.length ? sub[sub.length-1].data : 'â€”';
+	  const prima = sub.length ? sub[0].data : '';
+	  const ultima = sub.length ? sub[sub.length-1].data : '';
 	  
 	  let html = `<div style="padding:10px;background:rgba(79,174,122,.1);border-radius:8px;">
 		<div style="color:#4fae7a;font-weight:600;margin-bottom:6px;">
-		  ðŸ“Š ${CODICE_TO_NOME[ruota]} â€” dal ${dal} al ${al}
+		   ${CODICE_TO_NOME[ruota]}  dal ${dal} al ${al}
 		</div>
 		<div style="margin-bottom:4px;">
 		  <b>Estrazioni totali:</b> <span style="color:var(--gold-fill);font-size:16px;">${conteggio}</span>
 		</div>
 		<div style="font-size:11px;color:#b3a37e;">
-		  Prima: ${prima} Â· Ultima: ${ultima}
+		  Prima: ${prima} · Ultima: ${ultima}
 		</div>
-		${conteggio<50 ? '<div style="margin-top:6px;color:#e0a0a0;font-size:11px;">ï¸ Meno di 50 estrazioni: risultati poco significativi</div>' : ''}
+		${conteggio<50 ? '<div style="margin-top:6px;color:#e0a0a0;font-size:11px;">️ Meno di 50 estrazioni: risultati poco significativi</div>' : ''}
 	  </div>`;
 	  
 	  document.getElementById('verRisultato').innerHTML = html;
-	  showNotification(`ðŸ“Š ${conteggio} estrazioni trovate`);
+	  showNotification(` ${conteggio} estrazioni trovate`);
 	}
 	
     // ============================================================
@@ -3877,21 +3877,21 @@ Napoli 12 34 56 72 90"></textarea>
 
     function loadHistoryFromTextarea() {
       const draws = parseHistory(document.getElementById('historyInput').value);
-      if (!draws.length) { showNotification('âš ï¸ Nessuna estrazione valida'); return; }
+      if (!draws.length) { showNotification('⚠️ Nessuna estrazione valida'); return; }
       draws.forEach(d => HISTORY.push(d));
       document.getElementById('historyInput').value = '';
       renderHistList(); updateRuotaFilter();
-      showNotification(`ðŸ“¥ ${draws.length} estrazioni caricate`);
+      showNotification(` ${draws.length} estrazioni caricate`);
     }
 
     function renderHistList() {
       const box = document.getElementById('histList');
       box.innerHTML = HISTORY.map((d, i) => `
         <div class="hist-item">
-          <span class="ruota">${d.ruota || 'â€”'}</span>
+          <span class="ruota">${d.ruota || ''}</span>
           <span class="nums">${d.numeri.join(' ')}</span>
           ${d.data ? `<span style="font-size:10px;color:#8a7a5c;white-space:nowrap;">${d.data}</span>` : ''}
-          <span class="del" data-i="${i}">âœ•</span>
+          <span class="del" data-i="${i}">✕</span>
         </div>`).join('');
       box.querySelectorAll('.del').forEach(x => {
         x.addEventListener('click', () => { HISTORY.splice(parseInt(x.dataset.i), 1); renderHistList(); updateRuotaFilter(); });
@@ -3907,7 +3907,7 @@ Napoli 12 34 56 72 90"></textarea>
     function runConvergence() {
       const filter = document.getElementById('ruotaFilter').value;
       const draws = filter === 'all' ? HISTORY : HISTORY.filter(d => d.ruota === filter);
-      if (draws.length < 2) { showNotification('âš ï¸ Servono almeno 2 estrazioni'); return; }
+      if (draws.length < 2) { showNotification('⚠️ Servono almeno 2 estrazioni'); return; }
       const conv = new Map();
       draws.forEach((draw, di) => {
         computeCandidates(draw.numeri).forEach(c => {
@@ -3920,23 +3920,23 @@ Napoli 12 34 56 72 90"></textarea>
       });
       CONVERGENCE = [...conv.values()].filter(e => e.drawCount >= 2).sort((a, b) => b.drawCount - a.drawCount || b.score - a.score);
       renderConvergencePanel(draws.length);
-      showNotification(`ðŸ”€ ${CONVERGENCE.length} convergenti su ${draws.length} estrazioni`);
+      showNotification(`🔀 ${CONVERGENCE.length} convergenti su ${draws.length} estrazioni`);
       renderNumeriPromettenti();
     }
 
     function renderConvergencePanel(totalDraws) {
       const box = document.getElementById('convResults');
       if (!CONVERGENCE.length) { box.innerHTML = '<div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Nessuna convergenza</div>'; return; }
-      box.innerHTML = `<div style="font-size:12px;color:#c9b98f;margin:8px 0 6px;">Numeri "forti": candidati da piÃ¹ estrazioni</div>` +
-        CONVERGENCE.slice(0, 12).map(e => `<div class="conv-item" data-n="${e.n}"><span class="cn">${e.n}</span><span class="conv-badge">in ${e.drawCount}/${totalDraws}</span><span class="cm">${[...e.ruote].join(', ') || 'â€”'}</span><span class="cs">${e.score.toFixed(1)}</span></div>`).join('') +
-        `<button class="step" id="convHighlight" style="margin-top:6px;">ðŸŽ¯ Evidenzia i convergenti</button>`;
+      box.innerHTML = `<div style="font-size:12px;color:#c9b98f;margin:8px 0 6px;">Numeri "forti": candidati da più estrazioni</div>` +
+        CONVERGENCE.slice(0, 12).map(e => `<div class="conv-item" data-n="${e.n}"><span class="cn">${e.n}</span><span class="conv-badge">in ${e.drawCount}/${totalDraws}</span><span class="cm">${[...e.ruote].join(', ') || ''}</span><span class="cs">${e.score.toFixed(1)}</span></div>`).join('') +
+        `<button class="step" id="convHighlight" style="margin-top:6px;"> Evidenzia i convergenti</button>`;
       box.querySelectorAll('.conv-item').forEach(it => {
         it.addEventListener('click', () => { highlighted.add(parseInt(it.dataset.n)); renderChips(); renderAll(); aggiornaCadenzeDecine(); });
       });
       document.getElementById('convHighlight').addEventListener('click', () => {
         CONVERGENCE.slice(0, 8).forEach(e => highlighted.add(e.n));
         renderChips(); renderAll(); aggiornaCadenzeDecine();
-        showNotification('ðŸŽ¯ Convergenti evidenziati');
+        showNotification(' Convergenti evidenziati');
       });
     }
 
@@ -3957,18 +3957,18 @@ Roma 9 27 45 54 72`;
 
     function popolaConvArchivioRuote() {
       document.getElementById('convArchivioRuota').innerHTML =
-        '<option value="all">ðŸŒ Tutte le ruote</option>' +
+        '<option value="all"> Tutte le ruote</option>' +
         Object.entries(RUOTE_NOME).map(([k, v]) => `<option value="${k}">${k} - ${v}</option>`).join('');
     }
 
     function caricaRuoteDaArchivioPerConvergenze() {
-      if (!archivio || !archivio.righe.length) { showNotification('âš ï¸ Prima scarica o carica l\'archivio'); return; }
+      if (!archivio || !archivio.righe.length) { showNotification('⚠️ Prima scarica o carica l\'archivio'); return; }
       const codiceRuota = document.getElementById('convArchivioRuota').value;
       const nEstrazioni = parseInt(document.getElementById('convArchivioN').value) || 10;
       let righeFiltrate;
       if (codiceRuota === 'all') righeFiltrate = archivio.righe;
       else righeFiltrate = archivio.righe.filter(r => r.ruota === codiceRuota);
-      if (!righeFiltrate.length) { showNotification('âš ï¸ Nessuna estrazione trovata'); return; }
+      if (!righeFiltrate.length) { showNotification('⚠️ Nessuna estrazione trovata'); return; }
       const perRuota = {};
       righeFiltrate.forEach(r => { if (!perRuota[r.ruota]) perRuota[r.ruota] = []; perRuota[r.ruota].push(r); });
       let aggiunte = 0, ruoteCaricate = 0;
@@ -3991,7 +3991,7 @@ Roma 9 27 45 54 72`;
       if (HISTORY.length >= 2) runConvergence();
     }
 
-    // v2.10.2 â€” helper: score + lettura ai cardinali di una configurazione
+    // v2.10.2  helper: score + lettura ai cardinali di una configurazione
 	function scoreAndReadings(offsets, mode) {
 	  const dirs = { N: offsets[2] + HALF, E: offsets[2] + HALF + 90, S: offsets[2] + HALF + 180, O: offsets[2] + HALF + 270 };
 	  let score = 0; const read = [];
@@ -4008,8 +4008,8 @@ Roma 9 27 45 54 72`;
 	}
 	function findBestAlignments() {
 	  const mode = document.getElementById('alignMode').value;
-	  if (!highlighted.size && !drawHighlighted.size) { showNotification('âš ï¸ Evidenzia prima almeno un numero'); return; }
-	  document.getElementById('alignmentResult').innerHTML = '<span>â³ Ricerca in corso...</span>';
+	  if (!highlighted.size && !drawHighlighted.size) { showNotification('⚠️ Evidenzia prima almeno un numero'); return; }
+	  document.getElementById('alignmentResult').innerHTML = '<span>⏳ Ricerca in corso...</span>';
 	  setTimeout(() => {
 		const best = new Map();               // chiave = lettura ai cardinali (config essenziale)
 		const cur = [...offset];
@@ -4038,7 +4038,7 @@ Roma 9 27 45 54 72`;
         box.innerHTML = '';
         return;
       }
-      out.innerHTML = `<span>Trovate <b>${results.length}</b> configurazioni â€” scegline una</span>`;
+      out.innerHTML = `<span>Trovate <b>${results.length}</b> configurazioni  scegline una</span>`;
       box.innerHTML = results.map((r, i) => `
         <div style="display:flex;align-items:center;gap:8px;padding:6px 8px;background:rgba(0,0,0,.15);border-radius:6px;margin-top:6px;font-size:12.5px;">
           <span style="color:var(--brass-hi);font-weight:700;">#${i + 1}</span>
@@ -4050,9 +4050,9 @@ Roma 9 27 45 54 72`;
           const i = parseInt(btn.dataset.idx);
           offset[0] = results[i].offsets[0]; offset[1] = results[i].offsets[1]; offset[2] = results[i].offsets[2];
           renderAll();
-          out.innerHTML = `<span><strong>#${i + 1} applicata â€” Punteggio ${results[i].score.toFixed(1)}</strong></span>`;
+          out.innerHTML = `<span><strong>#${i + 1} applicata  Punteggio ${results[i].score.toFixed(1)}</strong></span>`;
           renderAlignDetail();
-          showNotification(`âœ¨ Allineamento applicato (score ${results[i].score.toFixed(1)})`);
+          showNotification(`✨ Allineamento applicato (score ${results[i].score.toFixed(1)})`);
         });
       });
     }
@@ -4068,9 +4068,9 @@ Roma 9 27 45 54 72`;
         if (v === null) continue;
         const isOro = highlighted.has(v), isVerde = drawHighlighted.has(v);
         if (isOro || isVerde) {
-          const badges = [isOro ? 'ðŸŸ¡' : '', isVerde ? 'ðŸŸ¢' : ''].filter(Boolean).join('');
+          const badges = [isOro ? '🟡' : '', isVerde ? '🟢' : ''].filter(Boolean).join('');
           html += `<div style="padding:3px 6px;background:rgba(79,174,122,.12);border-radius:4px;margin-bottom:3px;">
-            <b style="color:var(--gold-fill);">${d}</b> Â· ${nomi[r]} Â· <b>${v}</b> ${badges}
+            <b style="color:var(--gold-fill);">${d}</b> · ${nomi[r]} · <b>${v}</b> ${badges}
           </div>`;
           found++;
         }
@@ -4090,7 +4090,7 @@ Roma 9 27 45 54 72`;
 
     function renderChips() {
       const box = document.getElementById('chips');
-      box.innerHTML = [...highlighted].sort((a, b) => a - b).map(n => `<span class="chip" data-n="${n}">${n} âœ•</span>`).join('');
+      box.innerHTML = [...highlighted].sort((a, b) => a - b).map(n => `<span class="chip" data-n="${n}">${n} ✕</span>`).join('');
       box.querySelectorAll('.chip').forEach(chip => {
         chip.addEventListener('click', () => { highlighted.delete(parseInt(chip.dataset.n)); renderChips(); renderAll(); aggiornaCadenzeDecine(); });
       });
@@ -4098,7 +4098,7 @@ Roma 9 27 45 54 72`;
 
     function renderDrawChips() {
       const box = document.getElementById('drawChips');
-      box.innerHTML = [...drawHighlighted].sort((a, b) => a - b).map(n => `<span class="chip draw-chip" data-n="${n}">${n} âœ•</span>`).join('');
+      box.innerHTML = [...drawHighlighted].sort((a, b) => a - b).map(n => `<span class="chip draw-chip" data-n="${n}">${n} ✕</span>`).join('');
       box.querySelectorAll('.chip').forEach(chip => {
         chip.addEventListener('click', () => { drawHighlighted.delete(parseInt(chip.dataset.n)); renderDrawChips(); renderAll(); aggiornaCadenzeDecine(); });
       });
@@ -4127,7 +4127,7 @@ Roma 9 27 45 54 72`;
       localStorage.setItem('cerchioConfigs', JSON.stringify(saved));
       nameInput.value = '';
       updateSavedList();
-      showNotification(`ðŸ’¾ "${name}" salvata`);
+      showNotification(`💾 "${name}" salvata`);
     }
 
     function loadConfiguration(i) {
@@ -4151,7 +4151,7 @@ Roma 9 27 45 54 72`;
       const list = document.getElementById('savedList');
       const saved = JSON.parse(localStorage.getItem('cerchioConfigs') || '[]');
       if (!saved.length) { list.innerHTML = '<div style="text-align:center;color:#8a7a5c;font-size:12px;padding:8px;">Nessuna configurazione</div>'; return; }
-      list.innerHTML = saved.map((c, i) => `<div class="saved-item"><span class="name" onclick="loadConfiguration(${i})">${c.name}</span><span class="del" onclick="deleteConfiguration(${i})">âœ•</span></div>`).join('');
+      list.innerHTML = saved.map((c, i) => `<div class="saved-item"><span class="name" onclick="loadConfiguration(${i})">${c.name}</span><span class="del" onclick="deleteConfiguration(${i})">✕</span></div>`).join('');
     }
 
     function generateShareLink() {
@@ -4159,7 +4159,7 @@ Roma 9 27 45 54 72`;
       params.set('o', offset.map(o => o.toFixed(2)).join(','));
       params.set('h', [...highlighted].join(','));
       params.set('d', [...drawHighlighted].join(','));
-      navigator.clipboard.writeText(`${location.origin}${location.pathname}?${params}`).then(() => showNotification('ðŸ”— Link copiato')).catch(() => prompt('Copia:', `${location.origin}${location.pathname}?${params}`));
+      navigator.clipboard.writeText(`${location.origin}${location.pathname}?${params}`).then(() => showNotification('🔗 Link copiato')).catch(() => prompt('Copia:', `${location.origin}${location.pathname}?${params}`));
     }
 
     function loadFromURL() {
@@ -4177,12 +4177,12 @@ Roma 9 27 45 54 72`;
       const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
       html.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
-      document.getElementById('themeToggle').textContent = next === 'dark' ? 'ðŸŒ™ Tema' : 'â˜€ï¸ Tema';
+      document.getElementById('themeToggle').textContent = next === 'dark' ? '🌙 Tema' : '☀️ Tema';
     }
 
     function initTheme() {
       const saved = localStorage.getItem('theme');
-      if (saved) { document.documentElement.setAttribute('data-theme', saved); document.getElementById('themeToggle').textContent = saved === 'dark' ? ' Tema' : 'â˜€ï¸ Tema'; }
+      if (saved) { document.documentElement.setAttribute('data-theme', saved); document.getElementById('themeToggle').textContent = saved === 'dark' ? ' Tema' : '☀️ Tema'; }
     }
 
     function doFind() {
@@ -4231,12 +4231,12 @@ Roma 9 27 45 54 72`;
       document.getElementById('l38Results').innerHTML = '';
       renderChips(); renderDrawChips(); renderAll(); renderNumeriPromettenti(); aggiornaCadenzeDecine();
       renderL38Tracker();
-      showNotification('ðŸ—‘ï¸ Tutto pulito');
+      showNotification('🗑️ Tutto pulito');
     });
     document.getElementById('importDemoBtn').addEventListener('click', () => {
       [7, 23, 45, 68, 81, 12, 34, 56, 72, 90].forEach(n => drawHighlighted.add(n));
       renderDrawChips(); renderAll(); aggiornaCadenzeDecine();
-      showNotification('ðŸ“¥ Demo caricata');
+      showNotification(' Demo caricata');
     });
     document.getElementById('statsRun').addEventListener('click', mostraStatisticheTop10);
     document.getElementById('statsTop10').addEventListener('click', mostraStatisticheTop10);
@@ -4245,13 +4245,13 @@ Roma 9 27 45 54 72`;
     document.getElementById('fileInput').addEventListener('change', async (e) => {
       const file = e.target.files[0];
       if (!file) return;
-      if (!file.name.toLowerCase().endsWith('.zip')) { showNotification('âš ï¸ Seleziona un file ZIP'); return; }
+      if (!file.name.toLowerCase().endsWith('.zip')) { showNotification('⚠️ Seleziona un file ZIP'); return; }
       await caricaArchivioLocale(file);
       e.target.value = '';
     });
     document.getElementById('btnLoadCache').addEventListener('click', async () => {
       const dati = await caricaCache();
-      if (dati) { updateArchiveUI(); setupBtDateRange(); setupL38DateRange(); renderL38Tracker(); showNotification('ðŸ’¾ Cache caricata'); }
+      if (dati) { updateArchiveUI(); setupBtDateRange(); setupL38DateRange(); renderL38Tracker(); showNotification('💾 Cache caricata'); }
     });
     document.getElementById('btnValida').addEventListener('click', validaDati);
     document.getElementById('btnClearCache').addEventListener('click', async () => {
@@ -4277,7 +4277,7 @@ Roma 9 27 45 54 72`;
     document.getElementById('piramideClear').addEventListener('click', () => {
       PIRAMIDE_RESULTS = [];
       document.getElementById('piramideResults').innerHTML = '';
-      showNotification('ðŸ§¹ Piramide ripulita');
+      showNotification('🧹 Piramide ripulita');
     });
     document.getElementById('spieRun').addEventListener('click', runSpie);
     document.getElementById('figDelayRun').addEventListener('click', runFigureDelay);
